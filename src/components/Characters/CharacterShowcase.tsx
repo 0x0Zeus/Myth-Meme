@@ -4,7 +4,7 @@ import CharacterCard from './CharacterCard';
 
 const CharacterShowcase: FC = () => {
   return (
-    <section className="py-16 bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900">
+    <section id="legends" className="py-16 bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-white mb-4">
@@ -27,9 +27,9 @@ const CharacterShowcase: FC = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 font-bold py-3 px-8 rounded-full hover:from-yellow-500 hover:to-orange-600 transform hover:scale-105 transition-all duration-300 shadow-lg">
+          <a href="/aboutus" className="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 font-bold py-3 px-8 rounded-full hover:from-yellow-500 hover:to-orange-600 transform hover:scale-105 transition-all duration-300 shadow-lg">
             Explore All Legends
-          </button>
+          </a>
         </div>
       </div>
     </section>

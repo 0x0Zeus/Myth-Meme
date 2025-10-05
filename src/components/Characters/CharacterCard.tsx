@@ -40,7 +40,7 @@ const CharacterCard: FC<CharacterCardProps> = ({ character, size = 'medium' }) =
 
   const sizeClasses = {
     small: 'w-48 h-64',
-    medium: 'w-64 h-80',
+    medium: 'w-80 h-96',
     large: 'w-80 h-96'
   };
 
@@ -55,11 +55,12 @@ const CharacterCard: FC<CharacterCardProps> = ({ character, size = 'medium' }) =
     >
       {/* Character Image */}
       <div className="h-3/5 relative overflow-hidden">
-        <div className="w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
-          <div className="text-white text-6xl opacity-50">
-            {character.name.charAt(0)}
-          </div>
-        </div>
+        <img
+          src={character.image}
+          alt={character.name}
+          className="w-full h-full object-cover"
+          loading="lazy"
+        />
         <div className="absolute top-2 right-2">
           <span className={`px-2 py-1 rounded-full text-xs font-bold ${getRarityColor(character.rarity)}`}>
             {character.rarity.toUpperCase()}

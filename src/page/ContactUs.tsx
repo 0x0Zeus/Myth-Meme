@@ -2,7 +2,6 @@ import { basic_url } from "@/stack/stack";
 import { Form, Input, message } from "antd";
 import TextArea from "antd/es/input/TextArea";
 import axios from "axios";
-import {} from "react-icons";
 
 const validateMessages = {
   required: "${label} is required!",
@@ -15,9 +14,6 @@ const validateMessages = {
 };
 
 const ContactUs = () => {
-  const handleSendBtn = () => {
-    console.log("ClickSendButton");
-  };
 
   const onFinish = (value: any) => {
     console.log(value.user, value.email, value.message);
@@ -36,14 +32,14 @@ const ContactUs = () => {
     <>
       <div className="contactus-bg rounded-b-3xl bg-[#0f0f0f]">
         <div className="container mx-auto">
-          <h1 className="px-4 py-[40px] mt-[84px] md:py-[88px] font-inter text-[32px] md:text-[56px] font-bold leading-[40px] md:leading-[64px] text-white">
+          <h1 className="px-4 py-[40px] mt-[64px] md:py-[88px] font-inter text-[32px] md:text-[56px] font-bold leading-[40px] md:leading-[64px] text-white">
             Get In Touch
           </h1>
         </div>
       </div>
       <div className="container mx-auto">
         <div className="grid gap-6 px-4 md:px-16 py-[40px] md:py-[102px] lg:grid-cols-2">
-          <div className="rounded-xl bg-white px-6 md:px-[44px] py-8 md:py-12 flex flex-col gap-8 md:gap-8 md:justify-start">
+          <div className="rounded-xl bg-[#0F0F0F] border border-[#333333] px-6 md:px-[44px] py-8 md:py-12 flex flex-col gap-8 md:gap-8 md:justify-start text-[#FFFFFF]/80">
             {/* <div className="flex items-center gap-4 md:gap-7">
               <div className="h-[50px] w-[50px] md:h-[68px] md:w-[68px] shrink-0 content-center rounded-full border border-[#ffffff]/40 bg-[#050520] text-center">
                 <img
@@ -52,7 +48,7 @@ const ContactUs = () => {
                   alt="phone"
                 />
               </div>
-              <div className="text-left text-[#000000]/80">
+              <div className="text-left text-[#FFFFFF]/80">
                 <p className="text-xl md:text-2xl leading-[32px] md:leading-[48px]">Phone</p>
                 <p className="text-lg md:text-xl leading-[24px] md:leading-[32px]">+1 234 567 8900</p>
               </div>
@@ -65,7 +61,7 @@ const ContactUs = () => {
                   alt="Company"
                 />
               </div>
-              <div className="text-left text-[#000000]/80">
+              <div className="text-left text-[#FFFFFF]/80">
                 <p className="text-xl md:text-2xl leading-[32px] md:leading-[48px]">Company</p>
                 <p className="text-lg md:text-xl leading-[24px] md:leading-[32px]">VV, LLC Company</p>
               </div>
@@ -74,7 +70,7 @@ const ContactUs = () => {
               <div className="h-[50px] w-[50px] md:h-[68px] md:w-[68px] shrink-0 content-center rounded-full border border-[#ffffff]/40 bg-[#050520] text-center">
                 <img src="/icons/map.png" className="mx-auto w-5 md:w-7" alt="map" />
               </div>
-              <div className="text-left text-[#000000]/80">
+              <div className="text-left text-[#FFFFFF]/80">
                 <p className="text-xl md:text-2xl leading-[32px] md:leading-[48px]">Address</p>
                 <p className="text-lg md:text-xl leading-[24px] md:leading-[32px]">
                   90 Richmond Hill road, 1M S.I, New York 10314
@@ -82,9 +78,9 @@ const ContactUs = () => {
               </div>
             </div> */}
           </div>
-          <div className="space-y-4 md:space-y-6 rounded-xl bg-white p-4 md:p-6 font-spaceGrotesk text-[#0f0f0f]">
+          <div className="space-y-4 md:space-y-6 rounded-xl bg-[#0F0F0F] border border-[#333333] p-4 md:p-6 font-spaceGrotesk text-[#FFFFFF]/90">
             <div className="">
-              <h1 className="text-xl md:text-2xl font-medium text-[#0f0f0f]">
+              <h1 className="text-xl md:text-2xl font-medium text-white">
                 Contact Us
               </h1>
             </div>
@@ -104,7 +100,7 @@ const ContactUs = () => {
                     <p
                       style={{
                         fontSize: "14px",
-                        color: "#0f0f0f",
+                        color: "#ffffff",
                         fontWeight: "600",
                         lineHeight: "20px",
                       }}
@@ -118,7 +114,7 @@ const ContactUs = () => {
                   <Input
                     size="large"
                     placeholder="Full name"
-                    className="h-12 rounded-lg border border-[#e0e0e0] bg-white"
+                    className="h-12 rounded-md border border-[#333333] bg-[#0F0F0F] text-white placeholder:text-[#FFFFFF]/60"
                   />
                 </Form.Item>
                 <Form.Item
@@ -127,7 +123,7 @@ const ContactUs = () => {
                     <p
                       style={{
                         fontSize: "14px",
-                        color: "#0f0f0f",
+                        color: "#ffffff",
                         fontWeight: "600",
                         lineHeight: "20px",
                       }}
@@ -141,7 +137,7 @@ const ContactUs = () => {
                   <Input
                     size="large"
                     placeholder="Your email"
-                    className="h-12 rounded-lg border border-[#e0e0e0] bg-white"
+                    className="h-12 rounded-md border border-[#333333] bg-[#0F0F0F] text-white placeholder:text-[#FFFFFF]/60"
                   />
                 </Form.Item>
               </div>
@@ -152,7 +148,7 @@ const ContactUs = () => {
                   <p
                     style={{
                       fontSize: "14px",
-                      color: "#0f0f0f",
+                      color: "#ffffff",
                       fontWeight: "600",
                       lineHeight: "20px",
                     }}
@@ -165,14 +161,13 @@ const ContactUs = () => {
                 <TextArea
                   style={{ height: 120 }}
                   placeholder="Please enter your message ..."
-                  className="rounded-lg border border-[#e0e0e0] bg-white"
+                  className="rounded-md border border-[#333333] bg-[#0F0F0F] text-white placeholder:text-[#FFFFFF]/60"
                 ></TextArea>
               </Form.Item>
               <Form.Item>
                 <button
                   type="submit"
-                  className="w-full md:w-auto min-w-[160px] bg-[#0f0f0f] bg-gradient-to-b from-[#ffffff]/12 to-[#ffffff00] border border-[#363636] rounded-lg h-12 text-base text-white"
-                  onClick={handleSendBtn}
+                  className="w-full md:w-auto min-w-[160px] bg-[#0F0F0F] border border-[#333333] hover:border-[#666666] rounded-md h-12 text-base text-white px-5 transition-colors"
                 >
                   Send
                 </button>

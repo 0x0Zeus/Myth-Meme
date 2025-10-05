@@ -29,21 +29,21 @@ function Header() {
       ),
       key: "1",
     },
-    {
-      label: (
-        <Link to={"/tokenomics"} className="text-base">
-          Tokenomics
-        </Link>
-      ),
-      key: "2",
-    },
+    // {
+    //   label: (
+    //     <Link to={"/tokenomics"} className="text-base">
+    //       Tokenomics
+    //     </Link>
+    //   ),
+    //   key: "2",
+    // },
     {
       label: (
         <Link to={"/aboutus"} className="text-base">
           About Us
         </Link>
       ),
-      key: "3",
+      key: "2",
     },
     {
       label: (
@@ -51,7 +51,7 @@ function Header() {
           Contact Us
         </Link>
       ),
-      key: "4",
+      key: "3",
     },
     {
       type: "divider",
@@ -62,20 +62,20 @@ function Header() {
           Subscribe
         </button>
       ),
-      key: "5",
+      key: "4",
     },
   ];
 
   return (
     <>
-      <header className="fixed left-0 right-0 top-0 z-50 bg-[#000000]">
+      <header className="fixed left-0 right-0 top-0 z-50 bg-[#0a0a0a]/70 backdrop-blur-md border-b border-[#1f1f1f]">
         <div className="container mx-auto ">
-          <div className="flex items-center justify-between px-4 py-4">
+          <div className="flex items-center justify-between px-4 py-3">
             <Link to="/" className="flex items-center gap-3">
               <img
                 src="/icons/logo.png"
                 alt="Logo"
-                className="h-[52px] w-[52px]"
+                className="h-10 w-10"
               />
               <p className="text-center font-blackOpsOne text-2xl leading-6 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent">
                 Myth Memes
@@ -83,50 +83,42 @@ function Header() {
             </Link>
 
             {/* Desktop Navigation */}
-            <ul className="hidden h-12 items-center rounded-full border border-[#ffffff]/60 p-1 font-spaceGrotesk lg:flex ">
-              <Link
-                to="/aboutus"
-                className="text-nowrap flex h-full items-center justify-center whitespace-nowrap rounded-full px-4 text-sm font-medium text-[#ffffff] transition-colors duration-300 ease-in-out hover:bg-white hover:text-black"
-              >
-                <li className="flex h-full items-center">Legends</li>
-              </Link>
+            <ul className="hidden items-center gap-6 font-spaceGrotesk text-sm text-[#ffffff]/80 lg:flex ">
               <Link
                 to="/character/kaelith"
-                className="text-nowrap flex h-full items-center justify-center whitespace-nowrap rounded-full px-4 text-sm font-medium text-[#ffffff] transition-colors duration-300 ease-in-out hover:bg-white hover:text-black"
+                className="text-nowrap flex items-center whitespace-nowrap font-medium hover:text-white"
               >
                 <li className="flex h-full items-center">Characters</li>
               </Link>
-              <Link
+              {/* <Link
                 to="/tokenomics"
-                className="text-nowrap flex h-full items-center justify-center whitespace-nowrap rounded-full px-4 text-sm font-medium text-[#ffffff] transition-colors duration-300 ease-in-out hover:bg-white hover:text-black"
+                className="text-nowrap flex items-center whitespace-nowrap font-medium hover:text-white"
               >
                 <li className="flex h-full items-center">Tokenomics</li>
-              </Link>
+              </Link> */}
               <Link
                 to="/aboutus"
-                className="text-nowrap flex h-full items-center justify-center whitespace-nowrap rounded-full px-4 text-sm font-medium text-[#ffffff] transition-colors duration-300 ease-in-out hover:bg-white hover:text-black"
+                className="text-nowrap flex items-center whitespace-nowrap font-medium hover:text-white"
               >
                 <li className="flex h-full items-center">About Us</li>
               </Link>
               <Link
                 to="/contactus"
-                className="text-nowrap flex h-full items-center justify-center whitespace-nowrap rounded-full px-4 text-sm font-medium text-[#ffffff] transition-colors duration-300 ease-in-out hover:bg-white hover:text-black"
+                className="text-nowrap flex items-center whitespace-nowrap font-medium hover:text-white"
               >
                 <li className="flex h-full items-center">Contact Us</li>
               </Link>
             </ul>
             <div className="flex items-center gap-5">
               {/* Desktop Subscribe Button */}
-              <div className="hidden h-12 w-[150px] rounded-lg bg-gradient-to-b from-[#0f0f0f] to-[#0f0f0f50] p-[1px] lg:block">
-                <div className="h-full w-full rounded-[7px] bg-gradient-to-t from-[#0f0f0f] to-[#939393] p-[1px]">
-                  <button
-                    type="button"
-                    className="font-base h-full w-full rounded-md bg-[#0F0F0F] text-white"
-                    onClick={() => handleSubscribe()}
-                  >
-                    Get Started
-                  </button>
-                </div>
+              <div className="hidden lg:block">
+                <button
+                  type="button"
+                  className="h-10 px-4 rounded-md border border-[#333333] text-[#ffffff]/90 hover:text-white hover:border-[#666666] transition-colors"
+                  onClick={() => handleSubscribe()}
+                >
+                  Get Started
+                </button>
               </div>
               <Link
                 to="https://x.com/poememey"
@@ -154,7 +146,7 @@ function Header() {
           </div>
         </div>
       </header>
-      <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-[#FFFFFF] to-transparent opacity-[0.15]"></div>
+      <div className="hidden"></div>
       <SubscribeModal
         visible={subscribeVisible}
         setVisible={setSubscribeVisible}

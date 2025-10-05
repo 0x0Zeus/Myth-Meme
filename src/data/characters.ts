@@ -60,7 +60,7 @@ Some myths whisper that when the cosmos faces its final darkness, Kaelith will r
     powers: ['Starforging', 'Dissonant Creation', 'Temporal Manipulation', 'Cosmic Navigation'],
     alliances: ['The Elder Gods', 'The Wanderers', 'Lost Souls'],
     rivalries: ['Nhyros, the Void Serpent', 'The Perfect Ones'],
-    image: '/images/characters/kaelith.jpg',
+    image: '/images/kaelith.png',
     stats: {
       power: 95,
       wisdom: 88,
@@ -118,7 +118,7 @@ It is said those who meet her are given one request—but only one—and her gif
     powers: ['Veil Weaving', 'Realm Balance', 'Twilight Manipulation', 'Harmony Enforcement'],
     alliances: ['The Mortal Realm', 'Twilight Wanderers', 'Balance Keepers'],
     rivalries: ['Solareth, King of Light', 'Noctyros, Lord of Shadow'],
-    image: '/images/characters/sylvara.jpg',
+    image: '/images/sylvara.png',
     stats: {
       power: 85,
       wisdom: 98,
@@ -179,7 +179,7 @@ And when the war ends, the World-Root will either bloom a second time… or burn
     powers: ['World Creation', 'Life Bearing', 'Guardian Summoning', 'Elemental Mastery'],
     alliances: ['The Three Moons', 'Skyrend Stags', 'Stone Serpents', 'Amber Wolves'],
     rivalries: ['The Howlers', 'Chaos Spirits'],
-    image: '/images/characters/tharion.jpg',
+    image: '/images/tharion.png',
     stats: {
       power: 100,
       wisdom: 95,
@@ -230,7 +230,7 @@ Some say when the final age comes, when mountains crumble and seas boil dry, the
     powers: ['Storm Mastery', 'Weather Control', 'Land Shaping', 'Sky Navigation'],
     alliances: ['The Primordial Dragons', 'Storm Spirits', 'Wind Keepers'],
     rivalries: ['Vorthyx, the Inferno Serpent', 'Fire Dragons'],
-    image: '/images/characters/auranyth.jpg',
+    image: '/images/auranyth.png',
     stats: {
       power: 98,
       wisdom: 85,

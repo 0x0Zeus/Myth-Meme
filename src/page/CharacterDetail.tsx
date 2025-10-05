@@ -53,7 +53,7 @@ const CharacterDetail: FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900 mt-[64px]">
       <div className="container mx-auto px-4 py-12">
         {/* Back Button */}
         <button 
@@ -69,7 +69,7 @@ const CharacterDetail: FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Character Card */}
           <div className="lg:col-span-1 flex justify-center">
-            <div className="scale-125">
+            <div className="">
               <CharacterCard character={character} size="large" />
             </div>
           </div>
