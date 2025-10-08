@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getCharacterById } from '../data/characters';
 import CharacterCard from '../components/Characters/CharacterCard';
@@ -7,6 +7,11 @@ const CharacterDetail: FC = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const character = id ? getCharacterById(id) : null;
+
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!character) {
     return (

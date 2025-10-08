@@ -15,7 +15,7 @@ const CharacterCard: FC<CharacterCardProps> = ({ character, size = 'medium' }) =
       case 'light':
         return 'border-yellow-400 bg-gradient-to-br from-yellow-50 to-amber-100';
       case 'darkness':
-        return 'border-purple-600 bg-gradient-to-br from-purple-900 to-indigo-900';
+        return 'border-red-600 bg-gradient-to-br from-red-50 to-rose-100';
       case 'neutral':
         return 'border-blue-400 bg-gradient-to-br from-blue-50 to-cyan-100';
       default:
