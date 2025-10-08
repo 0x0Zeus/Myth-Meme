@@ -111,30 +111,30 @@ const CharacterDetail: FC = () => {
           {/* Back Button */}
           <button 
             onClick={() => navigate('/')}
-            className="text-white hover:text-yellow-400 transition-colors duration-300 flex items-center gap-2"
+            className="bg-gradient-to-r from-amber-500/20 to-orange-500/20 border border-amber-400/40 rounded-lg px-5 py-2.5 text-white hover:from-amber-500/30 hover:to-orange-500/30 transition-all duration-300 flex items-center gap-2 hover:scale-105"
           >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            Back to Legends
+            <span className="font-medium">Back to Legends</span>
           </button>
 
           {/* Character Navigation */}
-          <div className="flex gap-4 items-center">
+          <div className="flex gap-3 items-center">
             <button 
               onClick={navigateToPrevious}
-              className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white px-4 py-2 rounded-lg transition-all duration-300 flex items-center gap-2"
+              className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white rounded-lg px-5 py-2.5 transition-all duration-300 flex items-center gap-2 hover:scale-105"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
-              Previous
+              <span className="font-medium">Previous</span>
             </button>
             <button 
               onClick={navigateToNext}
-              className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white px-4 py-2 rounded-lg transition-all duration-300 flex items-center gap-2"
+              className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white rounded-lg px-5 py-2.5 transition-all duration-300 flex items-center gap-2 hover:scale-105"
             >
-              Next
+              <span className="font-medium">Next</span>
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
@@ -145,7 +145,7 @@ const CharacterDetail: FC = () => {
         {/* Character Quick Selector */}
         <div className="mb-8">
           <h3 className="text-lg font-semibold text-white mb-4">Browse All Legends</h3>
-          <div ref={scrollContainerRef} className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
+          <div ref={scrollContainerRef} className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
             {characters.map((char) => (
               <button
                 key={char.id}
