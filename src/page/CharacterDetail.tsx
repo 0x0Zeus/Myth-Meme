@@ -1,4 +1,4 @@
-import { FC, useEffect } from 'react';
+import { FC, useEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getCharacterById, characters } from '../data/characters';
 import CharacterCard from '../components/Characters/CharacterCard';
@@ -7,11 +7,29 @@ const CharacterDetail: FC = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const character = id ? getCharacterById(id) : null;
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   // Scroll to top when component mounts
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  // Scroll selected character to center
+  useEffect(() => {
+    if (character && scrollContainerRef.current) {
+      const currentIndex = getCurrentCharacterIndex();
+      const container = scrollContainerRef.current;
+      const itemWidth = 96; // w-24 = 96px
+      const gap = 16; // gap-4 = 16px
+      const containerWidth = container.clientWidth;
+      const scrollPosition = (currentIndex * (itemWidth + gap)) - (containerWidth / 2) + (itemWidth / 2);
+      
+      container.scrollTo({
+        left: Math.max(0, scrollPosition),
+        behavior: 'smooth'
+      });
+    }
+  }, [character]);
 
   // Navigation functions
   const getCurrentCharacterIndex = () => {
@@ -127,28 +145,23 @@ const CharacterDetail: FC = () => {
         {/* Character Quick Selector */}
         <div className="mb-8">
           <h3 className="text-lg font-semibold text-white mb-4">Browse All Legends</h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+          <div ref={scrollContainerRef} className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
             {characters.map((char) => (
               <button
                 key={char.id}
                 onClick={() => navigateToCharacter(char.id)}
-                className={`p-3 rounded-lg border-2 transition-all duration-300 hover:scale-105 ${
+                className={`flex-shrink-0 w-20 h-20 sm:w-24 sm:h-24 rounded-xl border-3 transition-all duration-300 hover:scale-110 overflow-hidden ${
                   char.id === character?.id
-                    ? 'border-yellow-400 bg-yellow-400/20'
-                    : 'border-gray-600 bg-gray-800/50 hover:border-gray-400'
+                    ? 'border-yellow-400 ring-2 ring-yellow-400/50'
+                    : 'border-gray-600 hover:border-gray-400'
                 }`}
+                title={`${char.name} - ${char.title}`}
               >
                 <img
                   src={char.image}
                   alt={char.name}
-                  className="w-full h-16 object-cover object-top rounded mb-2"
+                  className="w-full h-full object-cover object-top"
                 />
-                <p className="text-xs text-white font-medium text-center truncate">
-                  {char.name}
-                </p>
-                <p className="text-xs text-gray-400 text-center truncate">
-                  {char.title}
-                </p>
               </button>
             ))}
           </div>
