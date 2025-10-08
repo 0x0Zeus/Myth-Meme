@@ -1,6 +1,6 @@
 import { FC, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { getCharacterById } from '../data/characters';
+import { getCharacterById, characters } from '../data/characters';
 import CharacterCard from '../components/Characters/CharacterCard';
 
 const CharacterDetail: FC = () => {
@@ -12,6 +12,34 @@ const CharacterDetail: FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  // Navigation functions
+  const getCurrentCharacterIndex = () => {
+    if (!character) return -1;
+    return characters.findIndex(char => char.id === character.id);
+  };
+
+  const navigateToPrevious = () => {
+    const currentIndex = getCurrentCharacterIndex();
+    if (currentIndex > 0) {
+      navigate(`/character/${characters[currentIndex - 1].id}`);
+    } else {
+      navigate(`/character/${characters[characters.length - 1].id}`);
+    }
+  };
+
+  const navigateToNext = () => {
+    const currentIndex = getCurrentCharacterIndex();
+    if (currentIndex < characters.length - 1) {
+      navigate(`/character/${characters[currentIndex + 1].id}`);
+    } else {
+      navigate(`/character/${characters[0].id}`);
+    }
+  };
+
+  const navigateToCharacter = (characterId: string) => {
+    navigate(`/character/${characterId}`);
+  };
 
   if (!character) {
     return (
@@ -60,16 +88,71 @@ const CharacterDetail: FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900 mt-[64px]">
       <div className="container mx-auto px-4 py-12">
-        {/* Back Button */}
-        <button 
-          onClick={() => navigate('/')}
-          className="mb-8 text-white hover:text-yellow-400 transition-colors duration-300 flex items-center gap-2"
-        >
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
-          Back to Legends
-        </button>
+        {/* Navigation Controls */}
+        <div className="mb-8 flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
+          {/* Back Button */}
+          <button 
+            onClick={() => navigate('/')}
+            className="text-white hover:text-yellow-400 transition-colors duration-300 flex items-center gap-2"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+            Back to Legends
+          </button>
+
+          {/* Character Navigation */}
+          <div className="flex gap-4 items-center">
+            <button 
+              onClick={navigateToPrevious}
+              className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white px-4 py-2 rounded-lg transition-all duration-300 flex items-center gap-2"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+              Previous
+            </button>
+            <button 
+              onClick={navigateToNext}
+              className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white px-4 py-2 rounded-lg transition-all duration-300 flex items-center gap-2"
+            >
+              Next
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        {/* Character Quick Selector */}
+        <div className="mb-8">
+          <h3 className="text-lg font-semibold text-white mb-4">Browse All Legends</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+            {characters.map((char) => (
+              <button
+                key={char.id}
+                onClick={() => navigateToCharacter(char.id)}
+                className={`p-3 rounded-lg border-2 transition-all duration-300 hover:scale-105 ${
+                  char.id === character?.id
+                    ? 'border-yellow-400 bg-yellow-400/20'
+                    : 'border-gray-600 bg-gray-800/50 hover:border-gray-400'
+                }`}
+              >
+                <img
+                  src={char.image}
+                  alt={char.name}
+                  className="w-full h-16 object-cover object-top rounded mb-2"
+                />
+                <p className="text-xs text-white font-medium text-center truncate">
+                  {char.name}
+                </p>
+                <p className="text-xs text-gray-400 text-center truncate">
+                  {char.title}
+                </p>
+              </button>
+            ))}
+          </div>
+        </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Character Card */}
