@@ -58,7 +58,7 @@ const CharacterCard: FC<CharacterCardProps> = ({ character, size = 'medium' }) =
         <img
           src={character.image}
           alt={character.name}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-top"
           loading="lazy"
         />
         <div className="absolute top-2 right-2">
