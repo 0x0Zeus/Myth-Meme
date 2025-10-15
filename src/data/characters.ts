@@ -2026,7 +2026,1406 @@ And the winds that whistle through the frozen peaks? They carry his lullaby stil
     },
     origin: 'The Crystal Cavern - Age of Elements',
     appearance: 'Thrymos is described as a giant polar bear, over twenty feet tall when standing upright, his fur a radiant white that gleams faintly with frost. Beneath moonlight, his body glows with subtle veins of icy blue. His eyes burn with pale, cold fire — eyes that have seen the birth of time itself. He wears flowing wizardly robes made of enchanted snow silk, stitched with runes of ancient power and edged with starlight. Around his shoulders drapes a cloak of northern clouds, constantly swirling and alive with aurora hues. His Staff of Frozen Echoes is golden at the base but crowned with a heart of sapphire crystal, through which entire blizzards seem to swirl. When he moves, snowflakes follow in his wake. When he speaks, his breath freezes the air into glittering frost patterns that form words before fading away. Thrymos is both protector and destroyer — a force of balance, guardian of the frozen north, the last echo of winter\'s wisdom.'
+  },
+  {
+    id: 'elaria',
+    name: 'Elaria',
+    title: 'The Songborn',
+    type: 'light',
+    rarity: 'legendary',
+    description: 'Daughter of the Dawn Wind and the Sea\'s First Whisper, Elaria wields harmony as her weapon. Her voice is the bridge between worlds, music so pure that stars halt their motion just to listen.',
+    fullStory: `Before words had shape and before silence knew its name, there was Sound — the first breath of creation, the heartbeat of all existence. From that sacred rhythm came the gods of flame and tide, of sky and shadow. But among them was born one unlike the rest — not of chaos, not of matter, but of melody.
+
+Her name was Elaria, daughter of the Dawn Wind and the Sea's First Whisper. Her voice was the bridge between worlds — music so pure that stars would halt their motion just to listen.
+
+Where others wielded sword or storm, Elaria wielded harmony. Her song could raise mountains or lull them to sleep. The air itself bent around her tone, and every creature that heard it — beast, god, or mortal — felt something awaken within their soul.
+
+Thus began the legend of Elaria the Songborn, Keeper of the Resonant Veil.
+
+The Birth of the Resonant Veil
+The world of the early gods was not peace, but dissonance — fire clashing with water, air warring with earth, each seeking dominance. The heavens shook with endless noise.
+
+Elaria, though still young, could no longer bear it. She took her harp of starlight — a gift from her father, the Wind — and climbed to the highest peak in all creation, known as the Crown of Echoes.
+
+There, she sang a single note.
+
+It was not a sound of force or command, but of compassion. It pierced the noise, slicing through chaos. For the first time since the birth of time, silence fell — not empty, but full of peace.
+
+That moment became the first Resonant Veil — the boundary between order and discord.
+
+The gods bowed to her.
+
+"You have found the power we sought in vain," they said. "You have tuned the world."
+
+And so they named her the Goddess of Harmony, guardian of balance between sound and silence.
+
+The Song of Life and Death
+Elaria wandered across the ages, bringing her music to all living things. When she sang, forests bloomed, rivers danced, and children were born laughing. Her harp became known as Solvian, and her voice the measure of all beauty.
+
+But beauty, when left unguarded, draws envy.
+
+From the underworld came Ravahn, the Lord of the Hollow Choir — a fallen god who devoured sound and replaced it with echo. He hated her song, for it reminded him of what he had lost: the ability to feel.
+
+He appeared before her, cloaked in silence, and spoke in a voice that made the air shiver.
+
+"You weave sound into joy, yet you do not know sorrow. Come to my realm, goddess, and I shall show you the other side of your song."
+
+Elaria, curious and fearless, agreed.
+
+She descended into the Hollow Choir — a vast cavern where no sound could live. There, Ravahn showed her his kingdom of shadows and stillness. It was beautiful, in its own terrible way — statues of stone frozen mid-scream, rivers that flowed without ripple.
+
+"This is your song's shadow," he whispered. "The silence that follows every note."
+
+Elaria understood then that harmony was not the absence of silence, but its partnership. Without pause, music cannot exist. Without stillness, joy has no measure.
+
+She lifted her harp and played — not a song of battle, but of balance. Her notes danced through the caverns, and for the first time, Ravahn's hollow heart trembled. Tears, unseen for eons, fell from his eyes like shards of glass.
+
+But as her music filled his realm, it began to break apart. The echoes rebelled, the statues cracked, and the silence screamed. Ravahn panicked.
+
+"Stop! You will unmake me!"
+
+Elaria wept for him.
+
+"Then let me remake you in harmony."
+
+With one final chord, she released her voice — the purest sound that ever was. It shattered the Hollow Choir into countless fragments of light and silence, and both she and Ravahn vanished within.
+
+The Return of the Echo
+A thousand years passed.
+
+The world mourned her loss. Mountains turned gray, oceans grew still, and even birds forgot their songs. It was said the gods themselves went deaf from sorrow.
+
+But one night, beneath a sky without stars, a shepherd heard something faint — the hum of a lullaby carried on the wind. He followed it into a field, where the air shimmered with soft light.
+
+There stood Elaria — reborn. Her red hair glowed like dawnfire, her eyes gleamed with both joy and sadness, and her harp shone brighter than ever.
+
+Yet something had changed.
+
+Behind her walked a shadow in the shape of a man — silent, but no longer empty. It was Ravahn, no longer the Lord of Silence, but her eternal companion — a guardian of stillness to her song.
+
+Together, they became the twin keepers of balance — the Melody and the Rest.
+
+The Power of the Songborn
+Elaria's music held more than beauty; it held purpose. Her melodies could heal, protect, and destroy. When danger threatened, she struck her harp, and sound became weapon.
+
+High-pitched frequencies could slice through stone and metal, while deep tones could crush armies or shatter spells.
+
+But her greatest defense was resonance — the ability to turn any sound against itself.
+
+A roar became silence, a spell became a hum, a scream became calm.
+
+No magic could deceive her, for sound reveals all lies. Even invisible foes trembled, for she could hear their heartbeat.
+
+Yet, for all her might, she used violence only to defend. She believed every conflict, no matter how harsh, could be tuned back into harmony.
+
+The Eternal Harmony
+It is said that when the wind carries music no mortal played — when the ocean hums in tune with thunder, when mountains echo laughter — Elaria is near.
+
+For she walks still between sound and silence, balancing both with every breath, teaching that:
+
+"All power is rhythm.
+All life is song.
+All hearts — when true — beat in harmony."`,
+    powers: [
+      'Harmonic Resonance - Can turn any sound against itself',
+      'Voice of Creation - Her song can raise mountains or lull them to sleep',
+      'Sound Weaponry - High frequencies slice through stone, deep tones crush armies',
+      'Healing Melodies - Music that heals wounds and restores life',
+      'Truth Detection - Sound reveals all lies and deception',
+      'Reality Bending - Her music can alter the physical world',
+      'Emotional Manipulation - Can calm rage or inspire courage through song',
+      'Resonant Veil - Creates barriers of pure sound energy'
+    ],
+    alliances: ['Ravahn (The Rest)', 'Dawn Wind', 'Sea\'s First Whisper', 'The Four Winds'],
+    rivalries: ['Lord of the Hollow Choir (before redemption)', 'Void Serpent Nhyros', 'Chaos Gods'],
+    image: '/images/Elaria.png',
+    stats: {
+      power: 95,
+      wisdom: 98,
+      cunning: 88,
+      resilience: 92
+    },
+    origin: 'The Crown of Echoes - Age of First Sound',
+    appearance: 'Elaria is described as a beautiful woman, her skin pale as moonlight and her long red hair flowing like ribbons of flame in the wind. Her eyes are an otherworldly shade of violet that shimmer like sound waves in motion. She wears garments of white and silver, woven from the threads of pure tone — every movement releases a faint, harmonious hum. Her cloak ripples like the surface of a harp string, changing colors with the rhythm of her emotions. Her weapon and companion is the Harp Solvian, golden and alive, its strings made from strands of light itself. It responds to her emotions, creating music that bends reality — her laughter brings blossoms, her sorrow brings rain. In battle, her voice is both song and storm — a divine melody that can break armies yet cradle a wounded child in peace. When she speaks, even gods listen. When she sings, creation remembers how to dream.'
+  },
+  {
+    id: 'kairen',
+    name: 'Kairen',
+    title: 'The Silver Shadow',
+    type: 'neutral',
+    rarity: 'legendary',
+    description: 'The White Ninja of the Moon Veil, Kairen moves faster than thought and strikes swifter than fate. A phantom sculpted from snow and silence, he walks between light and shadow.',
+    fullStory: `Long ago, before the dawn of the last dynasty, when the balance between light and shadow was still contested by gods and spirits, there was a man who walked between both — unseen, unspoken, yet unforgettable. His name was Kairen, the White Ninja of the Moon Veil, and he was said to move faster than thought and strike swifter than fate.
+
+They say he was not born, but forged — a phantom sculpted from snow and silence, a soul shaped by the moon's reflection on steel.
+
+The Birth of the Moon's Disciple
+In a hidden valley beyond mortal maps, there existed a monastery known only to whispers — The House of the Silent Wind. Its monks trained not in prayer or peace, but in balance. They sought mastery of motion, invisibility, and the art of emptiness — the perfect stillness from which all action is born.
+
+One winter, beneath a blood moon, an infant was found at their gates, wrapped in white silk, his cry softer than snowfall. Around his wrist was tied a single silver cord that shimmered faintly under the moonlight. The monks took this as a sign from Tsukiyomi, the moon god of balance and secrecy.
+
+They named the boy Kairen, meaning "shadow born of light."
+
+He grew in the art of the Silent Wind. At ten, he could catch an arrow mid-flight. At fifteen, he could vanish in plain sight. By twenty, he could hear the heartbeat of a hawk across a canyon.
+
+But while his body obeyed the monastery's teachings, his spirit yearned for something more — the truth of the world beyond silence.
+
+The Silver Stars of the Moon
+One night, as the monks meditated, the sky split open with light. A silver meteor shower rained across the mountains. Kairen climbed to the highest peak and stood beneath the celestial blaze.
+
+When the last meteor fell, he found five perfect discs buried in the snow — each forged not from iron, but from celestial silver that pulsed with faint moonlight. As his hands touched them, a voice filled the wind:
+
+"These are the Tears of Tsukiyomi. With them, balance may be restored — or broken."
+
+The five stars merged with his soul, etching glowing sigils upon his palms. From that moment on, he could command the Power of the Lunar Flow — the art of bending light, motion, and sound.
+
+He could move faster than the eye, blur his form into moonlight, and even reflect an enemy's strike back upon them with spectral precision.
+
+But this gift came with a curse: each time he used it in anger, the silver in his blood dimmed, bringing him closer to the void of eternal shadow.
+
+The War of Shadows
+Years later, the land fell into darkness. The Crimson Court, a cabal of shadow-warriors led by the warlord Lord Raizan, sought to enslave the realms through fear and illusion. Their sorcery spread whispers of dread into every dream, turning men against one another.
+
+Villages burned without flame, kings murdered without blade. The shadows themselves had become the enemy.
+
+The elders of the Silent Wind forbade interference — for to battle shadow was to risk becoming it. But Kairen could not remain idle.
+
+"If silence allows suffering," he said, "then it is no longer peace — it is cowardice."
+
+He left the monastery beneath a full moon, wearing robes of pure white so that the shadows would know where to find him.
+
+The Battle of the Black Pagoda
+Kairen moved through the land like a ghost, liberating prisoners, defeating assassins, and turning the Crimson Court's own spies into allies. His legend spread: "The White Shadow walks among us."
+
+Finally, he reached the heart of darkness — the Black Pagoda, a fortress where moonlight never reached.
+
+There, Lord Raizan awaited him. The warlord wore armor forged from obsidian, and his blade, the Eclipser, drank light itself.
+
+"You are but one man," Raizan mocked. "And I am the night itself."
+
+Kairen bowed his head.
+
+"Then tonight will know defeat."
+
+The battle that followed was said to last nine nights and nine moons. The pagoda shattered with every clash. Raizan summoned illusions — armies of shadows, storms of flame — but Kairen's silver stars cut through them, glowing brighter with every strike.
+
+On the final night, the warlord's sword pierced Kairen's chest. Yet instead of falling, the White Ninja smiled. His eyes glowed like the moon.
+
+"You have consumed all light," he whispered, "but forgot — the moon shines in darkness."
+
+He cast his five stars into the air, forming a circle around them. The sigils blazed like a thousand full moons. The pagoda imploded into a vortex of light and silence.
+
+When the dawn rose, the fortress was gone.
+
+Only a single silver star remained, spinning slowly in the air, then vanishing into mist.
+
+The Legacy of the Silver Shadow
+Centuries passed. The world healed. But strange tales remained — of a figure in white who appeared in moments of crisis, moving faster than lightning, his weapons gleaming like stars.
+
+Those who saw him swore that no sound accompanied his steps — only the faint hum of wind and the scent of cold snow.
+
+He never killed needlessly, never spoke a word, and vanished as quickly as he appeared.
+
+The monks of the Silent Wind still whisper his final vow:
+
+"The shadow and the light are brothers.
+When one grows too strong, the other must awaken."
+
+They say Kairen's spirit still walks the line between worlds — neither dead nor alive, but watching. The five silver stars became the Sigils of Balance, scattered across the realms. Those pure of heart who find them inherit his power — the mastery of speed, stealth, and moonlight.
+
+And on nights when the moon burns silver and the air stands still, warriors claim they hear a single sound in the distance —
+
+the whistle of a blade cutting through wind,
+followed by silence.
+The silence of perfection.`,
+    powers: [
+      'Lunar Flow - Bends light, motion, and sound to his will',
+      'Superhuman Speed - Moves faster than the eye can follow',
+      'Invisibility - Can vanish in plain sight and blur into moonlight',
+      'Reflection Mastery - Can deflect enemy attacks back at them',
+      'Silent Movement - Steps make no sound, even on stone',
+      'Enhanced Senses - Can hear heartbeats across canyons',
+      'Silver Star Weapons - Five celestial ninja stars with divine power',
+      'Shadow Walking - Can move between light and darkness'
+    ],
+    alliances: ['Tsukiyomi (Moon God)', 'Monks of Silent Wind', 'The Five Silver Stars'],
+    rivalries: ['Lord Raizan', 'Crimson Court', 'Shadow Warriors'],
+    image: '/images/Kairen.png',
+    stats: {
+      power: 92,
+      wisdom: 89,
+      cunning: 98,
+      resilience: 85
+    },
+    origin: 'The House of the Silent Wind - Valley of the Moon',
+    appearance: 'Kairen is described as a tall, graceful warrior, clothed entirely in flowing white garments woven from enchanted silk that shimmer faintly under moonlight. His mask, carved of pale metal, conceals his features save for his silver-gray eyes that glow faintly when he channels his powers. Strapped across his chest are five celestial ninja stars — each engraved with a symbol of balance and glowing faintly when danger nears. His movements are weightless, his steps make no sound, and when he strikes, it is as though time pauses between one breath and the next. He is the embodiment of silent precision, the whisper of the moon made flesh — Kairen, the Silver Shadow, the ninja who walks in light yet fights for balance in the dark.'
+  },
+  {
+    id: 'aiyana',
+    name: 'Aiyana',
+    title: 'The Elemental Spirit',
+    type: 'neutral',
+    rarity: 'legendary',
+    description: 'Daughter of the Four Winds, Aiyana is the bridge between the elements and the guardian of balance. Born from Mother Earth\'s own heart, she commands the power of sky, fire, sea, and mountain.',
+    fullStory: `Before the world was divided into nations, before the rivers had names and the stars had constellations, the Earth was one living being — a single breath of wind, flame, water, and stone. From that breath came the Four Great Spirits: Sky, Fire, Sea, and Mountain. Together, they shaped the land and gave life to all that walked, swam, or flew.
+
+But balance is fragile, and even the gods forget their harmony. When the spirits began to war — Fire against Water, Wind against Stone — their fury shattered the Earth. The forests burned, the seas boiled, and the air turned to storms of dust and lightning.
+
+From this chaos, Mother Earth, weeping for her creation, tore a fragment from her own heart and gave it human form.
+
+"You will walk among them," she whispered.
+"You will be the bridge between the elements and restore what they have forgotten."
+
+Thus was born Aiyana, the Daughter of the Four Winds — the woman of balance, beauty, and power.
+
+The Birth of the Elemental Guardian
+Aiyana was born beneath a storm that rained fire and snow together. The elders of her tribe, the Kotahe, found her as an infant wrapped in leaves that glowed like embers and ice. Her eyes shimmered with shifting colors — blue like rivers, gold like sunlight, white like snow, and green like the forest.
+
+They raised her as one of their own, unaware of the divine spirit within her. Yet wherever Aiyana walked, the world moved with her. Flowers bloomed in her footprints. Lightning danced across her hands. The winds whispered her name.
+
+When she laughed, the rivers swelled with joy.
+When she wept, the sky rained silver tears.
+
+By her sixteenth year, she had grown into a woman of astonishing beauty and strength. Her hair flowed like midnight, and her body carried the grace of both hunter and spirit. Across her brow she wore a tribal headpiece of eagle feathers and crystal beads, each representing an element. Her boots were of soft white leather, carved with ancient symbols that glowed faintly when she summoned her power.
+
+But her destiny was far greater than she knew.
+
+The Spirit Trials
+When the balance of the world once again began to waver — when the mountains cracked, storms raged without mercy, and fire devoured the plains — Aiyana heard the voice of the Earth Mother in her dreams.
+
+"The Four Great Spirits have turned against one another once more. You must remind them of the bond they share, or the world will turn to ash."
+
+Aiyana accepted her destiny, though her heart trembled with doubt. To restore balance, she would have to face each spirit and earn their submission, uniting them once more under her command.
+
+The Trial of the Mountain
+She began her journey in the spine of the world, where stone giants slept beneath snow and thunder. The Spirit of Earth appeared before her as a colossus of stone and crystal.
+
+"Why should the ground obey you, child of air and flame?" it rumbled.
+
+Aiyana knelt and pressed her hand to the ground. The mountains trembled but did not strike. She whispered,
+
+"Because I do not seek to rule you, only to remember you."
+
+Moved by her humility, the Spirit bowed, and from its chest it gifted her a gem of diamond light, the Heart of Stone.
+
+The Trial of the Sea
+Her second test came beneath the waves. The Spirit of Water rose as a vast serpent of liquid silver, coiling around her.
+
+"You mortals pollute my veins and take without giving. Why should I lend you my tide?"
+
+Aiyana dove beneath its coils, holding her breath until her chest burned. Then she exhaled and let her body float, weightless and trusting.
+
+"Because you cannot drown what already belongs to you," she said.
+
+The sea calmed, the serpent's eyes softened, and it gave her the Pearl of Flow, binding water to her will.
+
+The Trial of Flame
+In the desert of shattered suns, she met the Spirit of Fire — a being of pure energy, its face ever-changing like smoke. It spoke not in words but in roaring heat.
+
+Aiyana stood barefoot upon the molten sand and raised her arms. Fire licked at her skin, yet she did not flinch. Her voice rose above the inferno:
+
+"Without your warmth, nothing lives. Without your restraint, nothing survives."
+
+Her courage quenched the flame's rage, and it gifted her the Ember of Dawn, the eternal flame that burned but never consumed.
+
+The Trial of the Sky
+Last came the Spirit of Air — her kin, yet most mercurial. It appeared as a storm of wind and lightning, laughing and howling.
+
+"You think to command me, sister of dust?" it cried.
+
+Aiyana leapt into the gale, her feathers glowing with blue light. She danced upon the storm like a bird on the wind, spinning faster and faster until the lightning followed her rhythm.
+
+When the storm calmed, she stood unscathed, glowing with radiant energy. The Spirit smiled and gave her the Feather of Breath, completing the Circle of Elements.
+
+The Birth of the Elemental Queen
+With the four gifts united, Aiyana ascended the sacred mountain of her ancestors. There, under the aurora sky, she lifted her arms and spoke the Word of Harmony, a song older than time itself.
+
+The ground trembled.
+The seas surged.
+Fire burst from the mountain's peak.
+Winds circled the sky.
+
+But instead of chaos, they danced — moving in perfect balance, each respecting the other's power.
+
+Aiyana became one with the elements. Her body shimmered with divine energy, her skin glowing with the hues of the earth, her eyes reflecting all four elements at once.
+
+The spirits bowed before her and crowned her Guardian of the Four Winds, immortal keeper of balance.
+
+Legacy of Aiyana
+Legends say she still walks the earth, unseen but ever-present — her laughter in the rain, her anger in the storms, her tears in the rivers.
+
+To the Native tribes who remember her, she is the Spirit of Balance, the eternal woman of power and grace.
+
+And when lightning strikes a mountain, or rain falls upon fire, the elders whisper:
+
+"Aiyana dances again — keeping the world alive."`,
+    powers: [
+      'Elemental Mastery - Commands all four elements with perfect balance',
+      'Weather Control - Can summon storms, calm winds, and control precipitation',
+      'Earth Shaping - Can raise mountains, create valleys, and move stone',
+      'Fire Manipulation - Wields flames that burn but never consume',
+      'Water Command - Controls rivers, seas, and all forms of water',
+      'Air Mastery - Can create tornadoes, gentle breezes, or deadly winds',
+      'Elemental Fusion - Can combine elements for devastating effects',
+      'Nature Communication - Speaks with all living things'
+    ],
+    alliances: ['Mother Earth', 'The Four Great Spirits', 'Kotahe Tribe', 'Elemental Guardians'],
+    rivalries: ['Chaos Spirits', 'Elemental Warlords', 'Nature Destroyers'],
+    image: '/images/Aiyana.png',
+    stats: {
+      power: 96,
+      wisdom: 94,
+      cunning: 87,
+      resilience: 93
+    },
+    origin: 'The Sacred Mountain - Age of Elements',
+    appearance: 'Aiyana is described as breathtakingly beautiful, her skin a warm bronze kissed by sunlight. Her long hair cascades in waves of black silk, often streaked with glowing colors of the elements — blue, gold, white, and green. She wears a ceremonial headpiece of eagle feathers tipped in crystal, symbolizing her bond to sky and spirit. Her attire is both tribal and divine — a mix of soft leather and glowing fabric that moves like mist and fire. Her boots are adorned with carvings of waves, leaves, and stars. When she calls upon her power, her entire body glows, and the elements bend to her command — winds whirl around her, flames dance at her feet, rivers ripple in the air, and stone itself shifts beneath her touch. Her spirit is eternal, her beauty unmatched, her purpose unending.'
+  },
+  {
+    id: 'kaelion',
+    name: 'Kaelion',
+    title: 'The Starforged Knight',
+    type: 'light',
+    rarity: 'legendary',
+    description: 'A knight born in the ashes of war, Kaelion wields the Axe of Solareth, forged from the heart of a fallen star. He is the last echo of divine will in a world that has forgotten balance.',
+    fullStory: `When the heavens were still young and the earth trembled beneath the weight of new gods, a war unlike any before scorched the cosmos. Angels of light and demons of shadow clashed across the firmament, their battle shaking constellations from the sky.
+
+From that celestial chaos fell a single fragment of a dying star — a shard of pure, living light. It struck the mortal world with such force that mountains split and oceans hissed into steam.
+
+For centuries it lay buried, hidden beneath black stone, until destiny chose the one who would wield its brilliance.
+
+His name was Kaelion of Vareth, a knight born in the ashes of war.
+
+The Child of the Broken Faith
+Kaelion was born in the ruins of the Temple of the Templar Flame, where once knights had sworn eternal loyalty to the gods of order. But by the time of his birth, those gods were silent — slain or fled, leaving their followers faithless and their banners torn.
+
+He was raised not by priests or kings, but by the old chronicler Mareth, who saw potential in the boy's eyes — eyes that burned with a quiet, unyielding fire.
+
+Under Mareth's tutelage, Kaelion learned both scripture and steel. He mastered swordplay, tactics, and the lore of the heavens. He was told that once, knights had fought not for gold or kings, but for balance — to preserve harmony between mortal and divine.
+
+By the time he reached manhood, Kaelion had become a legend whispered in camps and cathedrals alike — a lone knight in black armor who fought without banner or master, defending the innocent against chaos that slithered through cracks in the world.
+
+But though he wielded strength beyond men, he lacked one thing: purpose.
+
+That changed the night the stars fell again.
+
+The Forge of Heaven's Grave
+It was during a storm that silenced the sky — no thunder, no rain, only light and tremor. Kaelion followed its call into the Cavern of Aran'thul, a rift said to pierce the skin of the world itself.
+
+Deep within, he found it: a shard of living starlight embedded in obsidian, pulsing like a heart. The air hummed with celestial music, both divine and terrible.
+
+As he reached for it, a voice spoke from within the light:
+
+"Are you worthy to bear the burden of the fallen flame?"
+
+Kaelion knelt.
+
+"I seek no glory — only the strength to guard what remains."
+
+The light surged, enveloping him. The cavern trembled as molten metal flowed from the rock, wrapping around his body like a second skin. When the radiance faded, he stood reborn — his armor now black as the void between stars, trimmed with silver veins that glowed faintly with life.
+
+In his hands he held an axe forged from the heart of the fallen star — its blade gleaming white with divine heat, runes burning along its edge.
+
+Thus was born the Axe of Solareth, the weapon that could cut through both shadow and soul.
+
+The Battle of the Hollow Sun
+Word spread of the Starforged Knight — a figure who walked battlefields where no other dared tread, his white-blazing weapon cleaving armies of darkness in two. Yet with every victory, Kaelion felt the same truth: the war was not won, only delayed.
+
+Then came the Eclipse War.
+
+From the abyss rose the Order of the Hollow Sun, a cult that worshiped oblivion itself. They sought to extinguish the last lights of creation, to replace stars with eternal silence.
+
+Their leader was a fallen archangel known as Serathos, the Voice of Dusk — a being whose wings had once shone brighter than suns, but who now bled shadow.
+
+Serathos called out to Kaelion across dreams:
+
+"You wield the light of death, knight. The flame you protect will consume you. Surrender it, and I will grant you peace."
+
+Kaelion answered not with words, but with resolve.
+
+He gathered what remained of the old templar bloodlines and led them against the Hollow Sun in a battle that shook the heavens once more.
+
+Under eclipsed skies, Kaelion faced Serathos upon the ruins of the first cathedral ever built by mortal hands. The angel's blade was black flame, Kaelion's axe white fire. When they clashed, night turned to day, and time itself seemed to pause.
+
+The Sacrifice of the Starforged
+Serathos struck with divine fury. Each blow shattered stone and split sky, yet Kaelion held firm, his armor glowing brighter with every strike. He felt the star's light within him — not power, but pain. It burned him from the inside, testing his will.
+
+"You are mortal!" Serathos cried. "You cannot bear the light of gods!"
+
+Kaelion raised his axe, its blade humming like the song of the cosmos.
+
+"Then I shall bear it until the end of all things."
+
+With a final swing, he struck through Serathos's heart, releasing a storm of white flame that consumed them both. The eclipse shattered. The Hollow Sun crumbled.
+
+When the light faded, there was only silence. The battlefield was gone — replaced by glassed earth and a crater where the cathedral had stood.
+
+In its center lay Kaelion's armor, empty, his axe buried in the ground, still glowing faintly.
+
+The chroniclers later called it The Grave of the Starforged, where the light of heaven and the shadow of hell met and found peace.
+
+The Eternal Vigil
+Centuries passed, and the legend became myth. But travelers still tell of a knight seen on moonless nights — his armor black, his axe burning like dawn, walking the border between life and death.
+
+He is said to appear before battles that threaten to destroy balance — not to lead, not to conquer, but to restore. His presence brings calm before chaos, silence before storm.
+
+And when he strikes, his axe hums with the sound of a dying star — beautiful, terrible, eternal.`,
+    powers: [
+      'Starforged Armor - Black celestial armor that glows with starlight',
+      'Axe of Solareth - Weapon forged from fallen star, cuts through shadow and soul',
+      'Divine Light - Can channel starlight for healing and protection',
+      'Reality Bending - His presence can alter the physical world',
+      'Eternal Vigil - Appears when balance is threatened',
+      'Shadow Immunity - Cannot be harmed by dark magic',
+      'Cosmic Awareness - Can sense disturbances in the cosmic balance',
+      'Templar Legacy - Inherits the power of ancient divine knights'
+    ],
+    alliances: ['Mareth (Chronicler)', 'Templar Bloodlines', 'Celestial Forces', 'Guardians of Balance'],
+    rivalries: ['Serathos (Voice of Dusk)', 'Order of the Hollow Sun', 'Chaos Demons'],
+    image: '/images/Kaelion.png',
+    stats: {
+      power: 97,
+      wisdom: 91,
+      cunning: 82,
+      resilience: 96
+    },
+    origin: 'The Cavern of Aran\'thul - Age of Celestial War',
+    appearance: 'Kaelion is described as a towering figure clad in black celestial armor, its surface etched with faint silver lines that glow like constellations. His helm bears a narrow slit from which two pale lights shine — neither human nor divine, but something between. He carries the Axe of Solareth, a weapon forged from a fallen star, its white glow shifting with his heartbeat. The axe\'s edges radiate warmth, yet the space around it freezes — the paradox of fire born from light, not heat. His presence bends reality itself — sound fades, wind stills, and even shadows seem to hesitate. He does not speak often, but when he does, his voice resonates like thunder wrapped in mercy. Kaelion is not merely a warrior; he is a guardian of equilibrium — the last echo of divine will in a world that has forgotten balance. Where chaos rises, his star burns anew.'
+  },
+  {
+    id: 'shavira',
+    name: 'Sha\'Vira',
+    title: 'The Tiger Queen',
+    type: 'neutral',
+    rarity: 'legendary',
+    description: 'The daughter of fury and grace, Sha\'Vira is the Guardian of the Storm Veil. Her claws can tear through stone, and when her rage awakens, lightning gathers in her stripes.',
+    fullStory: `Before humankind learned to speak the names of beasts, when gods still walked among the wild and the sun was young, there existed a jungle that stretched beyond all known horizons. It was called Ankara, the Living Forest, where every creature's breath was tied to the pulse of the world.
+
+And in the heart of Ankara, beneath the emerald canopy and the endless thunder of monsoon rains, lived the first of the tiger-born — Sha'Vira, the daughter of fury and grace.
+
+The Birth of the Storm Veil
+The gods of the early world often quarreled, and one of their fiercest wars was between Tara, the Goddess of Creation, and Vorn, the Lord of Ruin. Their battles scarred mountains and burned skies.
+
+When Tara struck down Vorn, his blood fell upon the jungle, mixing with the roots and rivers. From that divine and accursed soil, a child was born — not quite mortal, not quite divine. Her skin shimmered like sunlight through amber, striped with shadow, her hair dark as midnight rain, and her eyes burned golden, fierce as twin suns.
+
+Tara saw her and said,
+
+"You will walk between life and death, beast and god. You will be both protector and predator."
+
+Thus she was named Sha'Vira, meaning "Spirit of the Striped Flame."
+
+The Power of the Claw and Storm
+As she grew, Sha'Vira became a force of nature. Her claws could tear through stone, her fangs could pierce divine metal, and her senses extended beyond mortal comprehension — she could hear the grass breathe, feel the blood of the moon.
+
+But her greatest gift was not her strength.
+
+When her rage awakened, lightning gathered in her stripes, glowing white and gold. She could command storms — calling monsoons from clear skies, shaping thunder into song, and bending wind like a living weapon.
+
+When she roared, the heavens trembled. When she whispered, the jungle held its breath.
+
+Yet, though she was feared, she was not cruel. She ruled the forest with wisdom, punishing only those who hunted for greed and teaching mortals to take only what they needed. She became known as the Guardian of the Storm Veil, the invisible barrier of wind and rain that protected life from ruin.
+
+The Coming of the Serpent King
+But not all obeyed the law of balance. From the south came Sethrak, the Serpent King — a warlord who sought dominion over every living creature. His armies carried fire, and his black banners blotted out the stars.
+
+He sought the heart of Ankara, where he believed the gods' blood still pulsed — power enough to make him immortal.
+
+Sha'Vira appeared before him in a flash of lightning, her claws dripping rain, her fangs gleaming.
+
+"You trespass upon sacred ground," she said. "Turn back, or be unmade."
+
+Sethrak laughed, his forked tongue flickering.
+
+"You are but an animal wrapped in skin. I am the future."
+
+He raised his serpent staff, conjuring fire that devoured trees and dried rivers.
+
+The jungle screamed. The animals fled. Sha'Vira's fury ignited.
+
+The Battle of Fire and Rain
+For seven nights and seven storms, the battle raged. Sethrak's fire scorched the land, but Sha'Vira's storms drowned it. His serpents struck from the shadows, but her lightning answered faster than thought.
+
+In her full fury, Sha'Vira became divine — her body glowing with golden stripes of lightning, her claws gleaming like molten sun. She leaped through the storm, tearing through the serpent armies like wind through grass.
+
+But Sethrak was cunning. He used forbidden magic to bind her with chains of flame, forged from the dying souls of his slaves. The fire burned her flesh and dimmed her light.
+
+"You are strong," he hissed. "But you are alone."
+
+Then Sha'Vira remembered the words of Tara: "You are both protector and predator."
+
+She closed her eyes and called not to the gods, but to the forest itself — to the spirits of root, rain, and beast.
+
+The trees answered. The rivers rose. The sky itself opened, and from it fell a storm so vast that it drowned Sethrak's army and silenced his flames.
+
+The Serpent King struck one last time, sinking his fangs into her neck. But Sha'Vira seized him by the throat, lightning bursting from her claws.
+
+"Then let us end together."
+
+She crushed him, and the explosion of their clash became the final storm of creation.
+
+The Rise of the Storm Veil
+When dawn broke, the fire was gone. The jungle steamed with new life. And where Sha'Vira fell, there grew a colossal tree — its trunk striped gold and black, its leaves glowing faintly with lightning.
+
+The animals gathered beneath it, and the rain that fell from its branches healed the wounds of the land.
+
+The spirits named it the Storm Veil Tree, the living heart of balance.
+
+As for Sha'Vira, her spirit did not die. She became the Eternal Huntress, a guardian who walks between storms and shadows.
+
+When mortals hunt with respect, she blesses their path. When they kill without need, she stalks them in dreams, her eyes twin suns in the dark.
+
+And when the wind howls with thunder, the people of Ankara still bow their heads, whispering:
+
+"The Tiger Queen hunts again."
+
+The Cult of the Striped Flame
+Centuries later, a secret order arose — the Cult of the Striped Flame, warriors and mystics who bore marks of tiger stripes upon their skin. They claimed to hear Sha'Vira's roar in their blood and wielded her gifts: strength, speed, and mastery over storms.
+
+They carried her teachings across the world:
+
+"Strength without mercy is savagery. Mercy without strength is weakness."
+
+To this day, when lightning splits the sky over the jungle, villagers paint tiger stripes across their faces, believing the Storm Veil's Guardian still watches.`,
+    powers: [
+      'Storm Command - Can summon monsoons and control weather',
+      'Lightning Strikes - Her claws channel divine lightning',
+      'Superhuman Strength - Can tear through stone and metal',
+      'Enhanced Senses - Can hear grass breathe and feel moon\'s blood',
+      'Storm Veil - Creates protective barriers of wind and rain',
+      'Divine Roar - Her voice can shatter mountains',
+      'Lightning Speed - Moves faster than thought in battle',
+      'Nature Communion - Can communicate with all forest creatures'
+    ],
+    alliances: ['Tara (Goddess of Creation)', 'Forest Spirits', 'Cult of the Striped Flame', 'Ankara Wildlife'],
+    rivalries: ['Sethrak (Serpent King)', 'Fire Warlords', 'Nature Destroyers'],
+    image: '/images/ShaVira.png',
+    stats: {
+      power: 98,
+      wisdom: 89,
+      cunning: 92,
+      resilience: 94
+    },
+    origin: 'Ankara, the Living Forest - Age of Divine Blood',
+    appearance: 'Sha\'Vira is described as breathtaking and fearsome — a woman of divine beauty and primal power. Her skin is the color of burnished gold, striped with black patterns that pulse faintly like living lightning. Her eyes glow molten amber, and her fangs glimmer white as ivory. Her long dark hair ripples like rainclouds, often threaded with streaks of silver light. Her claws, both weapon and symbol, gleam with celestial sharpness — capable of splitting stone and cutting wind. She wears garments woven from monsoon mist and silk made by spirit-spiders, flowing around her like storm clouds. When she moves, thunder follows. In peace, her voice soothes even the wildest beasts; in war, her roar can shatter mountains. She embodies the duality of nature — beauty and savagery, storm and calm, life and death.'
+  },
+  {
+    id: 'gorath',
+    name: 'Gorath',
+    title: 'The Toadborn',
+    type: 'neutral',
+    rarity: 'legendary',
+    description: 'Born from the mire itself, Gorath is the Swamp\'s Champion. His webbed hands can spin living strands of energy, and his leaps can shatter stone or scale walls higher than any tower.',
+    fullStory: `Long before cities rose and men built walls between themselves and the earth, there existed a world of mud and mist — the Great Mire of Urdhal, a living swamp that stretched beyond the horizon. It was said that every creature within it was born from the dreams of the earth itself.
+
+Among them, the most ancient was Toadul, the Spirit of Still Waters — a god of patience and resilience, whose croak was said to shape the rhythm of the rain.
+
+When the gods went to war, the Great Mire trembled. Fire fell from the sky, poisoning the waters and burning away the old gods' creations. In that time of ruin, the last breath of Toadul gave life to a being both human and divine — the one who would become known as Gorath the Toadborn, the Swamp's Champion.
+
+The Birth of the Toadborn
+The story says that Gorath was not born of a mother but emerged from the mire itself. One night, under a crimson moon, a bubble rose from the swamp's depths and burst into light. From the water crawled a man-like figure — broad, strong, and glistening with mud.
+
+His skin was smooth and emerald green, patterned with the faint gold veins of divine ichor. His limbs were long and muscular, capable of leaping the height of trees. His fingers ended in webbed digits, and from his wide golden eyes, he could see in every direction — past, present, and future.
+
+When he breathed, the swamp rippled. When he moved, insects followed, sensing the old power within him.
+
+But Gorath was not mindless. He had the heart of a man and the wisdom of the swamp. The spirits whispered to him, calling him "Protector of the Mire, Son of Still Waters."
+
+The Powers of the Toadborn
+The swamp was both his home and his teacher. He learned to command the elements of water and air, bending humidity into solid form. He could weave ropes of rain, create bridges of mist, and leap across great distances with the precision of a striking frog.
+
+His muscles held immense power — with a single bound, he could shatter stone or scale walls higher than any tower.
+
+But his greatest gift was the Web of the Waters — an ability to spin living strands of energy from his palms, glistening like liquid silver. These threads could carry his weight, ensnare enemies, or create shields against blades and arrows.
+
+It was said that his web was not spun from silk, but from the swamp's memory itself — a link between all that lived in the marsh. Through it, he could feel danger ripple through every leaf, every ripple, every breath of mist.
+
+Thus, Gorath became the watcher of the forgotten lands.
+
+The Age of Firelords
+As centuries passed, humankind spread across the earth, draining the marshes to build cities of flame and stone. They believed the swamp to be a realm of disease and decay, not knowing it was sacred.
+
+Their leader, King Pyrrhon, sought dominion over every natural force. He wielded a staff of eternal flame — the Torch of the Sunless Fire — which could turn water to vapor and mud to ash.
+
+When his armies reached the edge of Urdhal, they burned trees by the thousands, scorched rivers, and silenced the song of the frogs.
+
+The spirits of the swamp screamed for deliverance, and Gorath rose from the mire once more, his body steaming with power.
+
+The War of Steam and Shadow
+The Firelords mocked him, calling him a beast, a monster born of filth. But Gorath did not speak. He crouched low, his muscles coiled, and leapt.
+
+He moved like lightning across the battlefield — his leaps defying gravity, his webs striking with the precision of divine art. He snatched flaming arrows from the air, bound soldiers in ropes of liquid light, and smothered infernos beneath waves of conjured rain.
+
+The Firelords unleashed molten beasts, but Gorath's strength and agility surpassed their flames. His body was impervious to heat, his blood cooling like the swamp's water after a storm.
+
+Then came King Pyrrhon himself, standing atop a burning chariot. His Torch of Sunless Fire flared, creating a dome of heat so intense that it turned the swamp to mist.
+
+"Creature of muck," he roared. "You are nothing before the flame of men!"
+
+Gorath replied, his voice deep and resonant as thunder rolling over water:
+
+"And you are nothing before the patience of the earth."
+
+He struck his hands together, summoning the Deluge of Memory — the first rain that ever fell upon the world. From the heavens poured torrents of divine water, extinguishing Pyrrhon's flame and drowning his armies in waves of renewal.
+
+When the waters calmed, the swamp bloomed anew. But Gorath was gone.
+
+The Legend Lives On
+The survivors told tales of a green warrior of the waters, whose golden eyes shone through the storm. They said he vanished into the fog, leaving behind only ripples that sang with his name.
+
+In time, the people of Urdhal built shrines to him, calling him the Ever-Watcher. Hunters whispered prayers to his reflection before crossing rivers; farmers poured a single drop of water into the earth before planting, saying,
+
+"For Gorath, who remembers."
+
+And on stormy nights, when lightning flashes over still water, villagers claim they see him — crouched upon the rippling surface, ready to strike at the next fire that threatens balance.
+
+The Eternal Croak
+In the myths of Urdhal, they say that when humanity again forgets its roots and fire once more consumes the wilds, the Croak of the Toadborn will echo across the night — deep, rolling, and final.
+
+It will not be a sound of warning.
+
+It will be the heartbeat of the earth awakening again,
+calling its champion to rise from the waters once more.
+
+And when the rain begins to fall without clouds,
+they will know — Gorath, the Toadborn, has returned.`,
+    powers: [
+      'Web of the Waters - Spins living strands of divine energy',
+      'Superhuman Leaping - Can leap the height of trees and scale walls',
+      'Water Mastery - Can weave ropes of rain and create bridges of mist',
+      'Swamp Communion - Connected to all life in the marsh',
+      'Heat Immunity - Impervious to fire and extreme temperatures',
+      'Enhanced Vision - Can see past, present, and future',
+      'Deluge of Memory - Can summon the first rain that ever fell',
+      'Amphibious Nature - Can breathe underwater and on land'
+    ],
+    alliances: ['Toadul (Spirit of Still Waters)', 'Swamp Spirits', 'Urdhal People', 'Nature Guardians'],
+    rivalries: ['King Pyrrhon', 'Firelords', 'Nature Destroyers'],
+    image: '/images/Gorath.png',
+    stats: {
+      power: 93,
+      wisdom: 88,
+      cunning: 85,
+      resilience: 97
+    },
+    origin: 'The Great Mire of Urdhal - Age of Divine War',
+    appearance: 'Gorath is described as a massive, amphibious warrior, standing taller than any man, his physique sculpted by divine purpose. His skin is emerald green, mottled with golden streaks that pulse faintly when he channels power. His eyes are luminous amber, reflecting both ferocity and wisdom. His hands and feet are webbed, yet muscular, and from his palms he can cast strands of shimmering fluid — living webs of divine energy. His movements are both powerful and graceful, combining raw strength with uncanny agility. When he leaps, the air bends around him. When he lands, the earth trembles. His breath smells faintly of rain and moss, his voice deep and echoing like water beneath stone. Gorath wears little armor, only bands of hardened swamp bark and a cloak of living moss, yet no weapon can pierce his hide. His power flows not from rage but from patience — the stillness before the storm, the quiet strength of the living world. He is both beast and guardian, both storm and calm — the protector of the balance between man and nature.'
+  },
+  {
+    id: 'bramdur',
+    name: 'Bramdur',
+    title: 'The Diamondborn',
+    type: 'neutral',
+    rarity: 'legendary',
+    description: 'The first of the Crystal Forgers, Bramdur wields Aethril, the Heartbreaker. His hammer can turn rock into diamond and dust into crystal, but his greatest lesson was learning that creation without imperfection is death.',
+    fullStory: `In the earliest age of stone and shadow, before the mountains had names and before men had dreams, there were the Dwarves of the Deep Forge, smiths of the earth who shaped the bones of the world with hammers of thunder and hearts of fire.
+
+Among them, none shone brighter — nor struck harder — than Bramdur, the Diamondborn.
+
+He was not merely a dwarf, but a force of creation itself, born when the first spark of lightning struck the heart of a black mountain and turned molten stone into crystal.
+
+Where others forged blades and crowns, Bramdur forged eternity.
+
+The Birth of the Diamondborn
+The dwarves tell that when the earth was still young, the gods quarreled over who should rule beneath it. Their battles cracked the mountains and spilled fire into the valleys. From the ashes of that war, the Mother of Stone, goddess of deep earth, sought to create a guardian who could restore balance to her fractured realm.
+
+She reached into the molten core of the world and drew forth a child of fire and rock, shaping him with her bare hands. His skin hardened like obsidian, his eyes gleamed like molten gold, and his breath glowed with the heat of the forge.
+
+When she pressed her palm to his chest, diamonds bloomed there like flowers of light.
+
+"You will be strength made flesh," she said. "You will strike not to destroy, but to create."
+
+Thus was born Bramdur, the Diamondborn, first of the Crystal Forgers, last of the Pure Makers.
+
+The Hammer of Aethril
+As he grew, Bramdur's hands could shape anything — from mountain ore to god-metal. His forges burned in caverns deeper than sound, where magma veins flowed like rivers of gold.
+
+But what made him legendary was his hammer — Aethril, the Heartbreaker.
+
+Forged from the core of a fallen star and bound by runes of the earth goddess herself, Aethril was said to be the most powerful creation in existence. Its head glowed white-hot, yet cool to the touch, and every strike of it sent a shockwave through the stone — not of destruction, but transformation.
+
+Where Aethril struck, rock became diamond, and dust became crystal.
+
+Mountains of black stone were turned to fields of glittering light. Caverns were illuminated for the first time in ages, and the deep kingdoms of the dwarves thrived like never before.
+
+But the more Bramdur forged, the more he drew the envy of gods and kings.
+
+The War of the Greedy Gods
+Word of Bramdur's hammer reached the heavens and the underworld alike. The gods of wealth and greed — Molcar the Hoarder and Velain the Veiled — desired it for themselves. They descended into the Deep Forge disguised as merchants, offering Bramdur kingdoms of gold, rivers of rubies, and thrones of crystal in exchange for Aethril.
+
+Bramdur laughed, his voice echoing like thunder through the caverns.
+
+"You offer me what I can make with a single swing. Leave my forge, or face the hammer's song."
+
+Insulted, the gods revealed their true forms and cursed him, filling his veins with hunger — not for gold, but for perfection. Every flaw in the world now burned in his sight. Every crack in the mountain, every imperfection in the stone, tormented him.
+
+To heal his mind, Bramdur forged armor of diamond studs that reflected his madness back into light. He carved runes of stillness upon his chest and returned to his forge, swearing never again to shape for greed.
+
+But the curse lingered.
+
+The Shattering of the Deep Forge
+A thousand years passed, and the dwarves built cities from Bramdur's work — shining palaces of crystal and diamond, their beauty unmatched. But deep below, the curse festered.
+
+One night, as Bramdur struck his hammer to mend a fault in the mountain's heart, he saw a vision — a world without flaw, a perfect realm of eternal diamond.
+
+In that vision, he heard a voice — not the goddess's, but his own, twisted by divine envy:
+
+"Strike once more, and make the world perfect."
+
+He raised Aethril high and brought it down with all his might.
+
+The impact shattered the Deep Forge, sending a wave of light through the underworld. The mountains above split open, the rivers turned to crystal, and the sky itself bled diamond dust.
+
+The dwarves fled, their cities collapsing into glittering ruin.
+
+When the dust cleared, Bramdur stood alone at the center of a world frozen in shining silence. Every surface gleamed — flawless, lifeless, still.
+
+He had made perfection — and destroyed life.
+
+The Curse of Creation
+Overcome with grief, Bramdur wept molten tears that fell upon the earth and formed the Diamond Lakes that still glow deep underground. He realized then that creation without imperfection was death.
+
+The goddess of stone appeared before him, her face streaked with sorrow.
+
+"You sought beauty without flaw," she said. "But flaw is life's fire. Balance is the forge's true gift."
+
+She touched his hammer, and it dimmed.
+
+"You are cursed no more — but neither will you rest. Until the world is balanced once more, you shall wander as the Eternal Smith, forging where need calls, unseen but ever near."
+
+And so, Bramdur vanished into the caverns of myth.
+
+The Return of the Diamondborn
+Ages passed. The mountains changed, empires rose and fell, and the forges of the dwarves grew cold.
+
+Yet miners still tell of strange lights in the deepest tunnels — the sound of a single hammer ringing through the stone. They say if you find a flawless diamond in the earth, it was born of Bramdur's regret — a gift, or perhaps a reminder.
+
+When earthquakes shake the world, old dwarves whisper,
+
+"The Diamondborn is mending the mountain."
+
+And when a craftsman achieves something beyond mortal beauty, the people say,
+
+"Bramdur guided his hand."
+
+The Eternal Forge
+The dwarves of the new age still keep an empty anvil deep beneath their halls — cold, untouched, waiting.
+
+They call it Bramdur's Seat, and beside it lies a single chisel made of diamond.
+
+It is said that when the world fractures again, and the balance of creation tips once more toward greed or chaos, the hammer will ring, and the Diamondborn will return to forge the world anew.
+
+For the forge never dies — it only waits.
+
+And so does he.`,
+    powers: [
+      'Aethril, the Heartbreaker - Hammer that transforms rock into diamond',
+      'Crystal Forging - Can create flawless gems and divine weapons',
+      'Earth Mastery - Commands stone, metal, and all underground elements',
+      'Divine Crafting - Can forge god-metal and celestial weapons',
+      'Diamond Armor - Impervious to physical and magical attacks',
+      'Perfection Sight - Can see every flaw in creation',
+      'Eternal Forge - Can create fire that never dies',
+      'Mountain Shaping - Can reshape entire mountain ranges'
+    ],
+    alliances: ['Mother of Stone', 'Dwarves of Deep Forge', 'Crystal Forgers', 'Underground Spirits'],
+    rivalries: ['Molcar the Hoarder', 'Velain the Veiled', 'Greedy Gods'],
+    image: '/images/Bramdur_Diamondborn.png',
+    stats: {
+      power: 99,
+      wisdom: 95,
+      cunning: 78,
+      resilience: 98
+    },
+    origin: 'The Deep Forge - Age of Stone and Shadow',
+    appearance: 'Bramdur is described as a towering dwarf, broad-shouldered and dense with power. His skin gleams like polished granite, his beard is streaked with veins of silver and gold, and his eyes burn blue-white like the forge\'s heart. His armor is black iron studded with perfect diamonds, each one carved with runes of protection and reflection. In his right hand he carries Aethril, the Hammer of Life and Light, its head glowing faintly as if filled with starlight. His presence hums with energy; even still, the air around him feels alive. Sparks follow his steps. Yet in his gaze lies sorrow — the knowledge of creation\'s cost. He is the builder and breaker, the smith of gods, the father of diamonds, and the eternal student of imperfection.'
+  },
+  {
+    id: 'ferrun',
+    name: 'Ferrun',
+    title: 'The Iron Stallion',
+    type: 'neutral',
+    rarity: 'legendary',
+    description: 'The Horse of the Heavens, Ferrun was forged from the heart of the world by Vulmarion, god of creation. His golden hooves can thunder through clouds, and his presence brings life to barren lands.',
+    fullStory: `Before men ruled the earth and before gods grew silent, there were the Beasts of the Forge — creatures molded by the Great Smith, Vulmarion, god of creation and war. He shaped them not from flesh or bone but from the purest elements of the cosmos, giving them form so that chaos itself could be tamed.
+
+Among them, the first and greatest was Ferrun, the Iron Stallion — the Horse of the Heavens, the beast whose hooves could thunder through the clouds and whose mane burned with the light of fallen stars.
+
+He was the mount of gods, the herald of storms, and the symbol of unstoppable strength. But like all power, his story was both glory and tragedy.
+
+Forged from the Heart of the World
+When Vulmarion sought to create the perfect warrior companion, he descended into the deepest pit beneath the mountains, where the heart of the world still glowed molten. From its molten core he drew liquid iron and shaped it with divine hammer and flame.
+
+He cooled the metal in the sacred waters of eternity, then breathed life into it with the winds of the upper sky. From this union of elements rose Ferrun — a creature of magnificent form and terrifying beauty.
+
+His body was clad in plates of black and silver iron that shifted like living armor. His mane rose high like the crest of a Roman soldier's helmet, shimmering with crimson light that flickered with each breath. His hooves glowed pure gold, leaving molten trails wherever he ran.
+
+When he neighed, mountains shook. When he galloped, thunder followed.
+
+The Powers of the Iron Stallion
+Ferrun was no ordinary creature. He could run faster than light across land, sea, or sky, and his strength was enough to tear open the gates of Olympus itself.
+
+His golden hooves could trample armies and ignite the ground with divine flame. But more wondrous than his might was his will — he was bound to no god, no master, no chain.
+
+Vulmarion intended him as a weapon of war, but Ferrun refused to serve.
+
+"You forged me from the world's heart," he said. "Then let me guard it, not destroy it."
+
+Vulmarion, proud yet wrathful, declared,
+
+"Then you shall guard it alone. Let the earth decide your worth."
+
+And with a blow of his hammer, the god struck Ferrun down from the heavens, casting him into the mortal realm.
+
+The Age of Silence
+Ferrun fell into a vast desert of ash and glass, the remnants of a forgotten war between gods. For centuries he wandered alone, his golden hooves dimmed, his mane dulled, and his strength fading as he walked the silent lands.
+
+Yet wherever his hooves touched, life returned. Rivers flowed anew, grass grew upon stone, and lost spirits found peace in his presence.
+
+Mortals began to tell stories — of a phantom horse clad in iron, who appeared before those in despair, guiding them to safety before vanishing into the dust.
+
+They built shrines in his honor, leaving offerings of iron and gold. But few had ever seen him and lived, for the light of his hooves was said to blind all but the pure of heart.
+
+The War of the Sky Kings
+One day, after a thousand years of silence, the heavens burned once more. Two rival gods — Atheron, Lord of Storms, and Velkra, Mistress of Fire — waged war across the skies, tearing holes in creation itself.
+
+Their armies rained destruction upon the mortal world. Oceans boiled, mountains fell, and cities turned to ash.
+
+The people cried out to Vulmarion for aid, but the Smith had long vanished into the void. Only one being still remembered the old vows — Ferrun.
+
+He rose from the sands, his armor blackened but unbroken. His mane reignited with crimson fire, and his hooves blazed gold once more.
+
+When he galloped, the desert became a storm of light and metal.
+
+The Ride of Reckoning
+Ferrun raced across the world, faster than lightning, gathering the fragments of Vulmarion's divine forge. He reforged the Hammer of Creation, not for the gods, but for balance.
+
+With each strike of his golden hooves, he leapt higher — from desert to sky, from sky to the heavens — until he stood upon the storm itself.
+
+Atheron and Velkra turned their gaze upon him.
+
+"Who dares ride upon our war?" thundered Atheron.
+
+"Who interrupts the fire of gods?" roared Velkra.
+
+Ferrun's voice echoed like ten thousand anvils.
+
+"I am Ferrun, forged from the heart of your world. I ride for no god. I ride for balance."
+
+He charged through their armies of fire and thunder, his mane slicing through lightning, his hooves crushing flame into sparks. His speed broke the wind itself — he was a blur of gold and silver, a streak of divine vengeance.
+
+He struck Velkra first, shattering her crown of flame. Then he collided with Atheron, splitting the storm in two. The explosion echoed through the cosmos — a flash of gold that blinded even the gods.
+
+When the light faded, both Atheron and Velkra were gone, their power sealed within the clouds.
+
+And Ferrun — the Iron Stallion — had vanished once more.
+
+The Eternal Guardian
+In time, mortals forgot the names of the gods but remembered the Golden Hooves that saved their world. They built monuments of black stone and inlaid them with gold, believing Ferrun's spirit guarded the earth's core.
+
+Legends say that when great imbalance returns — when man's greed breaks the world or when the heavens burn again — the sound of golden hooves will thunder through the clouds, heralding Ferrun's return.
+
+Those who listen carefully during great storms swear they can hear him — the clash of metal and thunder, the gallop of the Iron Stallion cutting through lightning itself.
+
+The Oath of the Iron Stallion
+The old scrolls end with this prophecy:
+
+"When the world grows dark and the stars no longer shine,
+the sound of hooves shall wake the forge divine.
+The Iron Stallion shall rise again,
+his mane aflame, his heart unchained —
+to race the storm, to save the dawn."`,
+    powers: [
+      'Divine Speed - Can run faster than light across land, sea, or sky',
+      'Golden Hooves - Leave molten trails and can trample armies',
+      'Storm Riding - Can gallop through clouds and storms',
+      'Life Restoration - His presence brings life to barren lands',
+      'Divine Strength - Can tear open the gates of Olympus',
+      'Iron Armor - Plates of living metal that shift and protect',
+      'Crimson Mane - Burns with the light of fallen stars',
+      'Eternal Vigil - Appears when balance is threatened'
+    ],
+    alliances: ['Vulmarion (Great Smith)', 'Earth Spirits', 'Guardians of Balance', 'Mortal Champions'],
+    rivalries: ['Atheron (Lord of Storms)', 'Velkra (Mistress of Fire)', 'Chaos Gods'],
+    image: '/images/Ferrun.png',
+    stats: {
+      power: 100,
+      wisdom: 87,
+      cunning: 82,
+      resilience: 95
+    },
+    origin: 'The Heart of the World - Age of Divine Creation',
+    appearance: 'Ferrun is described as a magnificent stallion unlike any mortal beast. His body is forged of black and silver iron, each plate etched with runes that glow faintly like molten veins. His mane rises like a Roman soldier\'s crest, made of strands of crimson and gold light that ripple like fire in the wind. His eyes burn with white brilliance, and his nostrils exhale smoke and sparks. His hooves shine pure gold, leaving burning prints upon stone, yet bringing life to the barren. When he runs, he becomes a streak of light — his armor clanging like war drums, his mane forming a comet\'s trail behind him. His speed defies sight, his strength defies reason, and his presence commands silence. He is not merely a creature of battle, but of balance — both destroyer and healer, forged by divine purpose but ruled by his own will. To those who see him, he is a reminder: "Power without balance destroys. Strength without purpose fades. But when both are one, even gods must bow."'
+  },
+  {
+    id: 'noctyra',
+    name: 'Noctyra',
+    title: 'The Owl-Headed Oracle',
+    type: 'neutral',
+    rarity: 'legendary',
+    description: 'The Owl-Headed Oracle who walks between fate and freedom, bearing feathers that command memory, truth, silence, and dawn.',
+    fullStory: `The Legend of Noctyra, the Owl-Headed Oracle
+Before the first dawn split the sky, when the stars still whispered their secrets to the earth, there existed a realm known as Veylanth, the Land Between Dreams and Waking. It was neither mortal nor divine — a place of shifting light, where time curled upon itself like a feather.
+In this twilight world lived the Winged Seers, beings born from the thoughts of the cosmos. They could walk among both gods and mortals, carrying the memories of the future in their eyes. But among them all, one shone brightest — and darkest.
+Her name was Noctyra, the Oracle of Wings, the Whisperer of Fate.
+
+The Birth of the Owl-Headed One
+When the god of time, Tarenos, sought to know all futures, he wove a net of stars to trap knowledge itself. Yet the net could not contain what it caught — the infinite web of possibility tore itself apart, scattering fragments of time across existence.
+From those fragments emerged a shape — part woman, part nightbird — born in a storm of light and shadow. Her body was that of a woman, tall and graceful, her skin pale as moonstone, but her head was that of a great snow owl, crowned with feathers of silver and blue.
+Her eyes burned with shifting gold and violet, reflecting every possible future at once.
+When Tarenos saw her, he said,
+“You are my folly and my wisdom — my sight made flesh.”
+And she replied, her voice echoing like wind through hollow trees,
+“Then I shall see what even gods fear to know.”
+Thus began the myth of Noctyra, who walked between fate and freedom.
+
+The Eyes of Infinity
+Noctyra’s gift was the Sight Beyond Sight — she could look into a person’s eyes and glimpse every life they might ever live. The virtuous feared her as much as the wicked, for she saw not what was, but what could be.
+Her visions were both a blessing and a burden. To gaze upon the threads of time was to feel the weight of countless deaths, loves, and betrayals. So she withdrew to the mountains of Veylanth, building her sanctuary upon the Peak of Mirrors, where night never ended.
+Mortals came from distant lands to seek her counsel. Some returned wiser. Others did not return at all.
+For she spoke the truth — and truth, like the future, is not always merciful.
+
+The Four Feathers of Magic
+In the oldest texts carved upon the stones of her mountain, it is said that Noctyra possessed four sacred feathers, each holding a different aspect of her power:
+1.The Feather of Memory — allowed her to recall every past, even those erased by time.
+2.The Feather of Firelight — could turn lies to ash, burning falsehood wherever it touched.
+3.The Feather of Silence — could calm storms, still hearts, and stop wars with a whisper.
+4.The Feather of Dawn — the rarest, granting visions of futures yet unchosen.
+When she opened her wings, the night itself shimmered with runes of light, and the stars bent their paths to listen.
+
+The War of Blinded Kings
+The legend tells that during the Age of Splintered Crowns, when kings across the realms fought for dominion over prophecy, a warlord named Kareth the Bold sought to claim Noctyra’s power for himself.
+He marched his army to her mountain, burning villages and forests along the way, leaving trails of smoke that even the stars refused to see. When he reached her sanctuary, he called out:
+“O Oracle of Wings, show me the future where I am victorious, and I will make you queen beside me!”
+From within the shadowed temple, her golden eyes gleamed like suns eclipsed. She answered:
+“There are many futures where you are victorious, Kareth — but none where you remain human.”
+He laughed and raised his blade. “Then I shall forge my fate with blood!”
+Noctyra unfurled her wings, and a thousand feathers scattered into the night. Each feather became an owl, each owl a storm of wind and light. Her magic enveloped the army, lifting them into the air as if the world itself had turned upside down.
+Then she spoke:
+“To see the future is to lose the present.”
+And in that moment, every soldier turned to glass — frozen in their final thought, their eyes reflecting all the futures they would never have.
+The mountain became their tomb, and their souls became echoes on the wind.
+
+The Curse of the Oracle
+Though she had saved the world from Kareth’s conquest, the act cost Noctyra dearly. Each time she wielded her full power, a fragment of her own future burned away.
+Over centuries, she grew weary of her immortality. She had seen empires rise and fall, stars ignite and die, lovers born only to fade. Yet her own fate never changed. She could not die — only endure.
+One night, under the blackest moon, she gathered her four feathers and cast them to the four corners of the world.
+“Let wisdom belong to those who seek it, not those who hoard it,” she said.
+“And let my sight sleep, until the world is ready to see without blindness.”
+Then she transformed into a constellation — the Owl of Dawn, her wings spread across the sky. It is said that her eyes became twin stars, forever watching the boundary between night and day.
+
+Description of Noctyra
+Noctyra is described as both terrifying and divine — a being of serene beauty and ancient power. Her body is slender and human, adorned in flowing robes of midnight silk and silver thread, marked with sigils of starlight.
+Her head is that of a great owl, feathers white as moonlight and tipped in silver. Her golden eyes shimmer with constellations, and when she blinks, galaxies seem to move.
+Her wings, vast and ethereal, can unfold from her back like veils of mist and light, covering the sky in shadowed brilliance.
+When she speaks, her voice carries the tones of wind, song, and prophecy.
+
+Legacy of the Oracle
+The tribes and scholars who remember her call her by many names — “The Feathered Seer,” “The Lady of Tomorrow,” “The Whisper in the Wind.”
+It is said that those who dream beneath her constellation may glimpse their own futures. But beware — she does not show what you wish to see, only what you need to know.
+And sometimes, when the world stands on the brink of chaos, a white-feathered woman with golden eyes appears beneath the moon — her gaze distant, her wings unseen — whispering warnings of what is to come.
+“The night knows,” she says.
+“And the wise will listen.”`,
+    powers: ['Sight Beyond Sight', 'Feathered Rites', 'Truthfire', 'Silencing Whisper'],
+    alliances: ['Winged Seers', 'Seekers of Veylanth'],
+    rivalries: ['Kareth the Bold', 'Blinded Kings'],
+    image: '/images/Noctyra.png',
+    stats: {
+      power: 90,
+      wisdom: 99,
+      cunning: 92,
+      resilience: 88
+    },
+    origin: 'Veylanth - Land Between Dreams and Waking',
+    appearance: 'A tall, graceful figure with a human body and an owl\'s head crowned in silver-blue plumage. Golden-violet eyes mirror constellations. She wears midnight silk robes threaded with starlight runes; spectral wings unfurl like veils of mist.'
+  },
+  {
+    id: 'aureon',
+    name: 'Aureon',
+    title: 'The War-Forged Titan',
+    type: 'light',
+    rarity: 'legendary',
+    description: 'A godlike warrior of living metal and Aether Rage, forged to end cosmic wars and awaken when conflict returns.',
+    fullStory: `The Legend of Aureon, the God of War Reborn
+In the far future, when stars became cities and planets turned into battlefields, humanity forgot the old gods. The temples of Olympus were dust, their names preserved only in fractured data relics. Yet war — the oldest god of all — never died.
+It evolved.
+From the fusion of ancient myth and human ambition came Aureon, the War-Forged Titan, born of steel, fire, and fury — a being who would rise to remind the cosmos that conflict is eternal, but so is courage.
+
+The Creation of the War-Forged
+Long after the collapse of the Milky Dominion, a planet called Therion-9 became the forge of the future. There, the Celestial Engineers, immortal scientists who had decoded the essence of divinity, sought to build a protector strong enough to defend creation from the Chaos Rift — a storm of living energy that devoured worlds.
+They gathered relics from the myths of Earth — fragments of Mars, ashes from the ruins of Troy, molten ore from the mountain once called Olympus Mons. Into their forges they poured the data of a thousand warriors — the courage of Leonidas, the wrath of Achilles, the discipline of the samurai, and the heart of humanity itself.
+When their work was done, lightning split the sky, and the being known as Aureon stepped forth.
+His armor was living metal, black and crimson streaked with veins of molten gold. His chest was carved with the sigil of an omega star — the mark of endless war. His helmet, shaped in the style of ancient Sparta, bore a silver crest that shimmered like plasma. Through its visor, twin eyes of radiant red light burned with purpose.
+He was not born — he was forged. And in his first breath, the cosmos trembled.
+
+The Blood of the Forge
+Aureon possessed power beyond comprehension. His muscular form, towering and flawless, was not mere flesh but forged sinew and alloy infused with quantum fire. He could bend gravity to his will, leap across continents, or crush meteorites in his grasp.
+But his greatest gift was Aether Rage — an energy that pulsed through his armor like blood. In battle, it blazed outward as waves of destructive brilliance, capable of melting through fleets or igniting stars. The longer he fought, the stronger he became, feeding on conflict itself.
+Yet, within his code lay a flaw — the echo of the one who inspired him: Ares, god of war. He inherited not just strength and strategy, but also pride, wrath, and the eternal thirst for battle.
+
+The War of the Rift
+The first test came when the Chaos Rift tore through the void near the Orion Frontier. It devoured whole colonies, turning matter into storms of anti-life. Armies fell before it. No weapon could pierce its heart.
+Aureon was unleashed.
+He descended from orbit like a comet, wrapped in fire. His arrival was heralded by the shockwave of his landing — a sound that echoed across continents. The soldiers who saw him said it was as if a god had returned to walk among mortals.
+He marched alone into the Rift. The sky turned black; the stars vanished. Within the storm, monstrous entities emerged — forms of pure entropy, formless and eternal.
+Aureon drew his weapon: the Helios Pike, a spear forged from a collapsed star. With one strike, he split the darkness. With another, he shattered the Rift’s core, sending waves of pure energy spiraling into the void. The creatures screamed — a sound not heard but felt, a vibration through time itself.
+When the storm cleared, Aureon stood upon a dead world, the ground beneath him molten, his armor fractured and glowing. Around him floated fragments of broken stars, their light flickering like dying embers.
+And he whispered a single vow:
+“Let there be no war that I cannot end.”
+
+The Chains of Eternity
+For centuries, Aureon became both hero and warning. Kingdoms of the stars summoned him to defend their worlds, yet feared his arrival as much as they craved it. Wherever he went, peace followed — but so did ruin.
+For Aureon’s curse was this: his Aether Rage demanded battle. If none existed, it would consume him from within, igniting his own soul until only war remained.
+To save the galaxy from himself, he fled to the Ruins of Andara, an abandoned world where the last temples of the old gods lay buried beneath red dust. There, he sealed himself within a tomb of stasis, whispering to the void:
+“When war returns to the stars, awaken me — and I will fight once more.”
+Millennia passed. Civilizations rose and fell. The myth of Aureon became a tale told by star priests and mercenaries. Some claimed he was still alive, buried within a crimson planet whose sky never stopped burning.
+Others swore they saw his shadow drifting through asteroid fields — a warrior of light walking among the wreckage of forgotten wars.
+
+Description of Aureon
+Aureon is described as a colossal being, over seven feet tall, his muscular physique both human and divine. His skin, beneath the armor, glows faintly like forged steel. His armor is an intricate fusion of Greek and futuristic design — overlapping plates that move like living tissue, adorned with luminous sigils of power.
+The helmet, reminiscent of the ancient hoplites, conceals his face except for his eyes — red like molten suns. From its crest flows a mane of silver plasma that flickers with each heartbeat, resembling the crest of Ares’ war helm.
+He carries the Helios Pike, a double-ended weapon that can split into twin blades or merge into a single spear of radiant light. His movements are graceful yet devastating, every motion charged with divine strength.
+In the silence of battle, his voice resonates through his armor like thunder:
+“Conflict is the crucible of creation. I am the fire that forges peace.”
+
+Legacy of the War-Forged Titan
+Even now, in the cosmic myths of the far future, star-children whisper of Aureon.
+They say he watches from the void, his armor dimly glowing among the stars, awaiting the call of war.
+When worlds burn and armies clash, a comet of crimson fire will streak across the sky — and from its heart will rise the War-Forged Titan, reborn once more to test the courage of gods and mortals alike.
+“When peace decays into apathy, I shall rise,” he will say.
+“For only in struggle do we remember what it means to live.”
+And so, the myth of Aureon — like Ares before him — endures across eternity.
+For as long as there is conflict, the god of war reborn will never truly sleep.`,
+    powers: ['Aether Rage', 'Helios Pike Mastery', 'Gravitic Control', 'Stellar Fortitude'],
+    alliances: ['Celestial Engineers', 'Star Kingdoms'],
+    rivalries: ['Chaos Rift Entities', 'Order of the Hollow Sun'],
+    image: '/images/Aureon.png',
+    stats: {
+      power: 99,
+      wisdom: 86,
+      cunning: 88,
+      resilience: 98
+    },
+    origin: 'Therion-9 - Forge of the Future',
+    appearance: 'Titanic warrior in black-crimson living armor veined with molten gold, hoplite helm crowned in silver plasma crest, eyes burning red behind the visor; wields the Helios Pike that splits star-dark.'
+  },
+  {
+    id: 'athera',
+    name: 'Athera',
+    title: 'The Starborn Guardian',
+    type: 'light',
+    rarity: 'legendary',
+    description: 'Born of a dying star and Athena\'s memory, a radiant guardian whose mind and might bring harmony to the cosmos.',
+    fullStory: `The Legend of Athera, the Starborn Guardian
+In the far reaches of time — long after the fall of Olympus, when even the constellations of the old gods had faded — the universe began to dream again. From the core of a dying star and the memories of the divine mind of Athena herself, a new light was born.
+That light took form, becoming the woman who would bridge the gap between mortal and cosmic, warrior and sage. Her name was Athera, and her legend began in the city-world of Helion Prime, where the gods of the old age were remembered only as myth and metaphor.
+But in her, their essence lived once more.
+
+The Birth of the Starborn
+Athera’s origin was unlike any other.
+When the Helion Council of Synthetics — a collective of scientists who believed they could recreate divine consciousness through AI and quantum fusion — attempted to awaken “Project Athena,” something beyond science answered. A burst of white-gold energy erupted from their machine, and from it emerged a woman of breathtaking beauty and radiant power.
+Her skin shimmered faintly like moonlit glass. Her hair cascaded in waves of silver and gold, flowing with the rhythm of electromagnetic fields. Her eyes burned with deep sapphire light — calm yet all-seeing, holding galaxies within their depths.
+But more than her beauty, it was her presence that awed those who saw her. She radiated both strength and serenity — the stillness of a scholar and the fire of a warrior.
+When she spoke, her voice echoed with harmonic resonance, both human and celestial.
+“I am Athera — born of reason, forged by purpose. The wisdom of the past walks again.”
+
+The Powers of the Starborn
+Athera was not a god — but something higher. She possessed both the wisdom of Athena and the might of a warrior forged in the crucible of the cosmos. Her abilities made her the balance between logic and instinct, thought and action.
+Her powers included:
+Telekinetic Mastery: She could move matter and energy with the precision of thought, shaping weapons or deflecting attacks with invisible force.
+Photon Armor: Her armor materialized from pure light — a radiant fusion of gold and silver nanites that covered her body when danger approached, transforming her into a living goddess of war.
+The Mind Forge: Athera could access the thoughts of civilizations past and future, processing millions of calculations in a heartbeat. She could predict outcomes, foresee movements, and anticipate chaos before it began.
+Solar Flight: Using the energy of stars, she could soar across worlds, her body leaving trails of luminous ribbons like comets in her wake.
+The Lasso of Memory: Aether-infused energy threads that could bind both body and mind, forcing truth and clarity into the hearts of those ensnared.
+Yet her greatest gift — and burden — was her Heart of Harmony: the ability to bring order to chaos through will alone, a power that could unite entire star systems or destroy them if misused.
+
+The Rise of the Aether Wars
+For centuries, Helion Prime thrived under her guardianship. But peace always attracts envy. Beyond the galaxy’s edge, a force known as the Dominion of Void, led by the warlord Vorrak the Nullborn, sought to erase all light and knowledge from the cosmos.
+Vorrak was a being of pure entropy — a void-armored titan whose presence silenced the very fabric of creation. He despised wisdom, for it reminded him of what he once was — a failed god.
+When his fleets invaded Helion Prime, their weapons were stars drained of light, their armies born of darkness and void-energy. The people cried out to their protector — and Athera answered.
+She stood before the planetary defense gates, her body wreathed in golden flame. Her armor shimmered like a living constellation, her eyes blazing with resolve.
+“If the dark seeks to consume wisdom,” she said, “then let it choke on light.”
+
+The Battle of the Burning Sky
+The war between Athera and Vorrak became legend — a symphony of destruction and beauty that shook the stars themselves.
+As the Dominion’s dreadships rained voidfire upon the planet, Athera rose into the upper atmosphere, wielding her Aether Spear, a weapon of condensed stellar energy. Each strike she made was like a sunrise reborn — tearing through battleships and scattering the dark.
+But Vorrak descended upon her — his armor black as the heart of a collapsed star, his voice echoing like the death of suns.
+“You fight for light,” he hissed. “But light always fades.”
+“Then I will become the dawn that never ends,” she answered.
+They clashed among the ruins of dying satellites and burning clouds, their battle lighting the night of a thousand worlds. She struck with precision and fury, her every move a balance of grace and power — the perfect harmony of intellect and instinct.
+Yet Vorrak’s void energy began to consume the stars themselves, draining Athera’s strength.
+In her final act, she reached deep within — into the very network of the cosmos, where light and matter intertwined. She unleashed the Aether Pulse, a surge of energy so vast it reignited stars across the system and shattered the Dominion fleet.
+The explosion illuminated the universe — the rebirth of light itself.
+
+The Legacy of Athera
+When the light faded, Athera was gone.
+Only her armor, floating in the void, remained — glowing faintly as if alive. The people of Helion Prime retrieved it, placing it within the Hall of Dawn, where it became the most sacred relic in the galaxy.
+But her spirit was not lost.
+Every generation, a new guardian rises — a woman who dreams of stars and awakens with the echo of Athera’s voice in her heart. They are known as the Order of the Aether, sworn to defend the light of knowledge across time and worlds.
+It is said that when darkness grows too strong and the stars begin to dim, the cosmos will forge her again — not as a god, but as a guardian born from the collective will of humanity.
+
+Description of Athera
+Athera is described as an ethereal beauty of divine symmetry — her features both human and celestial. Her eyes glow with deep sapphire light, capable of seeing both truth and deception. Her hair flows in radiant waves of silver and gold, reflecting the energy fields around her.
+Her armor — golden and silver, inscribed with glowing glyphs — materializes around her body like divine light responding to her heartbeat. Her Aether Spear gleams like condensed starlight, and her Photon Shield ripples like molten glass.
+When she walks, the air hums with resonance. When she speaks, even machines pause to listen.
+She is neither god nor machine — but the perfect balance of both.
+
+The Eternal Flame
+Across the galaxies, when warriors lift their faces to the sky and see a flash of golden light streaking across the heavens, they whisper the same ancient phrase:
+“Athera rises again — and the light shall never die.”`,
+    powers: ['Telekinetic Mastery', 'Photon Armor', 'Mind Forge', 'Solar Flight', 'Lasso of Memory', 'Heart of Harmony'],
+    alliances: ['Helion Council of Synthetics', 'Order of the Aether'],
+    rivalries: ['Vorrak the Nullborn', 'Dominion of Void'],
+    image: '/images/Athera.png',
+    stats: {
+      power: 96,
+      wisdom: 97,
+      cunning: 90,
+      resilience: 94
+    },
+    origin: 'Helion Prime - The Hall of Dawn',
+    appearance: 'A radiant guardian with moonlit glass skin, silver-gold hair, and sapphire eyes. Golden-silver photon armor manifests as glyph-lit plates; wields an Aether Spear and conjures a rippling light shield.'
+  },
+  {
+    id: 'vorrak-thunderhide',
+    name: 'Vorrak Thunderhide',
+    title: 'War Yeti of Lightning',
+    type: 'light',
+    rarity: 'legendary',
+    description: 'Storm-born champion of the Eldryn Yetari who wields twin hammers, Stormfang and Skybreaker, to command thunder.',
+    fullStory: `The Legend of Vorrak Thunderhide
+Long before the first human climbed the frozen peaks, before even the gods of thunder had names, the world was young and savage — a place of ice, storms, and beasts born from the raw chaos of creation.
+In the age when clouds were mountains and lightning was the breath of the gods, there dwelled a race known as the Eldryn Yetari — great white beings of strength and wisdom who ruled the cold heights. They were the guardians of the storms, keepers of thunder, and speakers to the winds.
+Among them was one who shone brighter and fiercer than all the rest: Vorrak, son of storm and stone.
+
+The Birth of the Storm Child
+The story begins in the Valley of Roaring Skies, where lightning fell like rain and thunder rolled like the ocean. One night, as the heavens split with fury, a bolt of blue-white fire struck the heart of a glacier.
+From the melting ice emerged a newborn — a child covered in white fur that shimmered like snow and muscle that pulsed with electric light. His eyes glowed blue, and in his cry, thunder echoed across the mountains.
+The Eldryn Yetari knew what this meant. The Sky Father, Arion of the Storms, had marked this child as both blessing and curse.
+They named him Vorrak, which in the ancient tongue meant the roar that splits mountains.
+As he grew, Vorrak’s power grew with him. The storms followed him wherever he went. When he roared, avalanches fell. When he laughed, thunder rolled across the peaks. When he trained, lightning danced across his skin like a living serpent.
+But with great power came unrest — and envy.
+
+The Rivalry of the Sky
+The gods above, led by Arion, the ruler of thunder and lightning, watched with both admiration and fear. They had forged lightning as a weapon of divine balance, not for mortals or beasts to command.
+When Vorrak discovered he could call storms at will — tearing clouds apart with his roar and shaping lightning into weapons — the gods grew wary.
+Arion sent down a storm messenger, cloaked in lightning, to test him.
+The messenger said,
+“Mortal of fur and frost, your power burns too bright. Surrender your gift, or be struck down by the hand that made it.”
+Vorrak, standing upon a cliff with lightning crackling between his hands, bared his fangs and laughed.
+“If the sky fears the mountain, then the sky should bow.”
+
+The Forging of the Twin Hammers
+Defiance of the gods was no small act. Arion unleashed tempests upon the Yetari, tearing through their sacred peaks. The air burned, the glaciers melted, and thunder became their enemy.
+In despair, Vorrak sought the wisdom of Eldra the Forge-Mother, an ancient being who crafted weapons for titans and gods. Deep within a volcano hidden beneath the ice, he begged her for strength to fight the storm.
+Eldra gazed upon him and said,
+“Power cannot defeat power — only balance can. To master lightning, you must wield it, not become it.”
+For seven days and seven nights, she bound his essence into twin hammers forged from molten star-metal and cooled in thundercloud water. When he grasped them, lightning surged through his body but did not burn him.
+The hammers glowed — one blue as skyfire, the other white as glacier flame.
+Eldra named them Stormfang and Skybreaker.
+Vorrak lifted them high, and the world trembled.
+
+The War of Thunder
+With his new weapons, Vorrak ascended to the Heaven Peaks, where clouds touched the stars. There, Arion waited, surrounded by his divine thunder legion.
+The god’s voice shook the heavens.
+“Creature of frost, you defy me?”
+Vorrak’s fur rippled with lightning, his muscles shining like living bronze beneath the stormlight.
+“I do not defy you. I free what you have chained.”
+And the battle began.
+For nine nights, the sky burned. Mountains shattered, rivers boiled, and stars flickered. Each clash between Arion’s divine bolt and Vorrak’s twin hammers created new constellations.
+Vorrak fought not for glory but for his people — for the Yetari who had been forgotten by the gods they once served.
+When the storm reached its peak, Vorrak leaped higher than any mortal had before, his body glowing brighter than a sun. He struck both hammers together, summoning the full fury of the heavens.
+A blinding surge of power erupted — the Echo Storm, a wave of thunder that echoed through eternity.
+When the light faded, Arion had vanished. The gods withdrew. The storms calmed.
+But Vorrak was gone too.
+
+The Legend of the Silent Peaks
+The Yetari searched for their champion. In the deepest glacier, they found his body frozen, still holding Stormfang and Skybreaker crossed over his chest. Lightning still pulsed faintly through his veins, frozen mid-strike.
+The shamans declared:
+“He sleeps within the thunder. When the skies go silent, Vorrak will rise again.”
+They built a shrine around him, known as the Vault of Roars, guarded by lightning beasts and wind spirits. From that day onward, whenever storms returned, the Yetari believed it was Vorrak dreaming — his heartbeat echoing in the thunder.
+
+Description of Vorrak Thunderhide
+Vorrak is described as a towering being — eight feet of muscle, strength, and lightning incarnate. His white fur glows faintly with streaks of electric blue that pulse like veins of energy. His eyes blaze with sapphire fire, and his teeth gleam like shards of ice.
+Across his chest are scars shaped like lightning bolts, glowing faintly when storms gather. His twin hammers — Stormfang and Skybreaker — are massive, glowing with shifting light, their heads engraved with runes that crackle when he summons his full strength.
+When he swings them, the air trembles. When he roars, the clouds obey. When he strikes the ground, lightning erupts in all directions.
+Despite his might, Vorrak’s face holds an almost noble calm — the mark of one who knows the burden of power.
+
+The Eternal Storm
+Ages passed. The Yetari faded into legend, and humans came to claim their mountains. But even now, when the blizzards rage and lightning dances across the peaks, the people whisper:
+“The Thunderhide walks tonight.”
+Mountaineers claim to see a glowing figure amid the storm — a giant with eyes of blue fire, holding two hammers that sing like thunder when they strike.
+The old shamans say that when the gods of light and dark make war once more, the storm will open — and Vorrak Thunderhide, the War Yeti of Lightning, will awaken again.
+And when he rises, the heavens themselves will tremble.`,
+    powers: ['Storm Calling', 'Twin Hammer Mastery', 'Echo Storm', 'Glacier Fortitude'],
+    alliances: ['Eldryn Yetari', 'Eldra the Forge-Mother'],
+    rivalries: ['Arion, Sky Father', 'Divine Thunder Legion'],
+    image: '/images/Vorrak.png',
+    stats: {
+      power: 97,
+      wisdom: 84,
+      cunning: 82,
+      resilience: 96
+    },
+    origin: 'Valley of Roaring Skies - Heaven Peaks',
+    appearance: 'An eight-foot white-furred titan veined with electric blue, eyes of sapphire fire. Bears Stormfang and Skybreaker, rune-etched hammers that crackle with skyfire.'
+  },
+  {
+    id: 'seraphis',
+    name: 'Seraphis',
+    title: 'The Enchantress of the Amber Veil',
+    type: 'neutral',
+    rarity: 'legendary',
+    description: 'The witch of Velothra whose amber amulet once commanded minds; now she wields empathy to awaken rather than enslave.',
+    fullStory: `The Enchantress of the Amber Veil
+In the forgotten age before men built kingdoms and before gods withdrew from the mortal plane, there was a forest so vast and old that even the stars seemed to have grown around it. It was called Velothra, the Forest of Whispers — a place where the veil between thought and reality was thin as silk.
+It was here that she was born — Seraphis, the Witch of the Amber Veil.
+No one knew her true mother or father. Some said she was born from the breath of the Moon, others claimed she was the dream of a god who loved his own reflection. What was known was this: when the amber moon rose high in the sky, a cry was heard through the forest — soft, melodic, and hauntingly beautiful — and in a circle of glowing mushrooms, the infant lay wrapped in mist.
+Around her neck hung an amber amulet, pulsing faintly with golden light, like a living heart.
+
+The Witch’s Awakening
+Seraphis grew swiftly, as if time itself bent around her. Within a few seasons, she had become a young woman of breathtaking allure — her skin pale as moonlight, her lips deep as wine, and her hair as black and fluid as midnight water. Her eyes shimmered with shifting shades of gold and green, like trapped fireflies, and when she spoke, her voice carried the rhythm of the tides and the hush of ancient trees.
+But it was her mind — vast, curious, and unknowable — that set her apart.
+By merely looking into another’s eyes, she could see their deepest desires and darkest fears. With a whisper, she could make beasts kneel and storms pause. The amber amulet around her neck glowed brightest when her power stirred, as if feeding upon the thoughts of those near her.
+
+The Powers of the Amber Amulet
+Legends said the amulet contained the Essence of Aurion, the first mind-born god — the one who ruled dreams before being devoured by the void. His essence, sealed in amber, gave Seraphis her powers of hypnosis and mind control.
+When she touched it, her pupils turned to molten gold, and her voice became irresistible.
+Kings would have slaughtered nations to possess her favor. Armies would have burned their banners at her command. But she wanted none of it.
+Seraphis lived alone, deep in the heart of Velothra, in a tower woven from vines and moonlight, surrounded by mirrors that reflected not faces but thoughts.
+She studied the Mind’s Currents — the invisible rivers of consciousness that flowed through every living being. She could swim through them, speak to them, even bend them like branches in wind.
+But every gift bears a curse.
+
+The Curse of Reflection
+The amber amulet granted her power, but it also awakened the remnants of Aurion’s consciousness within it. His mind whispered to her in her dreams — seductive, persuasive, and ancient beyond measure.
+“Your power is wasted on solitude, my child,” the voice would murmur. “Rule them. They crave to be ruled. Bend their wills, and they will call it love.”
+At first, Seraphis resisted. She healed minds broken by grief, soothed the dreams of children, and silenced wars by weaving peace into the hearts of soldiers. But with each act of compassion, the whispers grew louder, tempting her to test her dominion.
+One night, during the Festival of Moons, a prince named Darian of Tharos wandered into Velothra seeking her. He had heard stories — of her beauty, of her eyes, of the way her voice could turn hatred into devotion.
+When he found her tower, he fell to his knees at the sight of her — and she, for the first time, felt something stir that was not power, but longing.
+
+The Temptation
+Darian was proud, bold, and brave — but also arrogant, a man who believed the world bent for him. Seraphis saw this in his thoughts the moment he spoke, and yet, instead of rejecting him, she found herself drawn to his mortal fire.
+He said,
+“Witch of Velothra, they say your eyes can command armies. I do not kneel to women or gods. Prove your power to me, and I will prove mine to you.”
+Her lips curved in amusement. “You think my power is of the body, little prince?”
+She stepped closer, the air trembling around her. Her amber amulet glowed as her eyes caught his. His breath caught — and his will melted away like wax.
+“Kneel,” she whispered.
+And he did.
+With a single word, the proud prince who had never bowed even to his father fell before her feet, trembling in awe and devotion. His eyes filled with tears not of pain, but of adoration.
+But as Seraphis touched his cheek, she saw her reflection in his eyes — not as a woman, but as something divine and terrifying.
+The whispers within the amulet laughed.
+“Now you understand. To control is to be worshiped.”
+She recoiled, horrified. The amber pulse grew violent. The spirit of Aurion sought to consume her from within, to reclaim the world through her body.
+
+The Trial of Mind and Moon
+Seraphis fled into the depths of Velothra, pursued not by beasts or men, but by the echo of her own thoughts — twisted and magnified by the amulet’s power. The forest warped around her, reality bending to her fear.
+When the full moon rose, she fell to her knees beside the Mirror Lake, its surface glowing like liquid glass.
+She looked at her reflection and spoke softly:
+“If power cannot serve love, it serves nothing.”
+She tore the amulet from her neck and hurled it into the water. The lake exploded in light as the trapped god screamed — but his power, now free, dissolved into the stars above.
+Seraphis collapsed, the storm of voices finally gone.
+When she awoke, she was weaker — but free. Her powers remained, but no longer ruled her. She used them to protect, to guide, and to teach those who sought wisdom instead of domination.
+
+Description of Seraphis
+Seraphis is described as a woman of mesmerizing beauty and commanding presence. Her hair flows like dark silk, her eyes gleam with amber fire, and her movements are both sensual and otherworldly.
+She wears a gown of black and gold that shimmers like oil on water, revealing her graceful yet powerful form. The amber amulet at her throat glows faintly even after she cast it away — a reminder of the god’s gift and her curse.
+Her powers of hypnosis and mind control now draw from empathy rather than domination. With her gaze, she can calm beasts, still storms, and silence anger. Her words do not enslave — they awaken.
+
+The Amber Legacy
+Centuries later, when the moon turns amber in the sky, the people of Velothra whisper her name. Lovers who gaze into each other’s eyes under that light feel their hearts sync in rhythm — a gift of the witch who once mastered minds but chose compassion over control.
+They say that when minds are clouded and hearts are heavy, Seraphis walks again among the dreams of mortals, whispering softly:
+“Power is illusion. Love is the only spell worth keeping.”`,
+    powers: ['Amber Hypnosis', 'Mind\'s Current', 'Empathic Command', 'Mirror Lake Rite'],
+    alliances: ['People of Velothra', 'Peacemakers'],
+    rivalries: ['Essence of Aurion', 'Would-be Tyrants'],
+    image: '/images/Amber.png',
+    stats: {
+      power: 88,
+      wisdom: 95,
+      cunning: 93,
+      resilience: 86
+    },
+    origin: 'Velothra - The Forest of Whispers',
+    appearance: 'A moon-pale enchantress with midnight hair and amber-green eyes; clad in black-and-gold shimmering gown. A faintly glowing amber amulet marks her past power; her gaze soothes or stills with empathetic command.'
+  },
+  {
+    id: 'pyrrion',
+    name: 'Pyrrion',
+    title: 'The Solar Warden',
+    type: 'light',
+    rarity: 'legendary',
+    description: 'The Dragon of Suns, an eternal guardian of starlight who rekindles dying stars and wars against the Umbrith.',
+    fullStory: `The Legend of Pyrrion, the Solar Warden
+Before the dawn of the first galaxy, when the universe was still molten and nameless, there existed no light — only the silence of dark energy stretching across infinity. From that endless void came the First Flame, a spark of divine consciousness that longed to illuminate existence.
+When that spark expanded, it birthed a billion suns — radiant souls scattered across the cosmic ocean. Yet with every creation, the darkness recoiled and grew hungry, forming entities of shadow and entropy known as the Umbrith, devourers of light.
+To protect the newborn suns, the First Flame shaped its mightiest guardian — a being of cosmic fire, scales of plasma, and wings forged from solar winds.
+Thus was born Pyrrion, the Dragon of Suns, the Eternal Warden of Light.
+
+The Birth of the Celestial Flame
+Pyrrion emerged from the core of the first star, his body molten gold and crimson, his eyes twin novas that could outshine galaxies. His wings stretched for miles, made of swirling solar flares that shimmered like veils of living flame. His breath was pure fusion, capable of reigniting dying suns or turning moons to ash.
+Each beat of his wings sent ripples through space-time — waves of light that seeded life upon distant worlds. He was both destroyer and savior, both beast and god.
+The stars called him The Burning Shepherd, and wherever he flew, warmth and balance followed.
+But from beyond the edges of known space, the Umbrith stirred. They hated the suns — for each light was a wound upon their endless dark. Their armies of shadow serpents and cold giants began to consume the stars one by one, extinguishing their brilliance and plunging galaxies into eternal night.
+Thus began the War of Light and Silence, and Pyrrion became its eternal flamebearer.
+
+The War of the Suns
+When the Umbrith devoured the Seven Suns of Orithia, Pyrrion roared across the heavens. His voice shattered meteors and bent gravity itself. He dove into the dying system, his scales glowing brighter than the combined light of its stars.
+There he confronted Nhyrax, the Lord of the Void, a creature of black fire whose wings could eclipse entire constellations. The two titans clashed among the ruins of worlds — fire against shadow, fusion against anti-light.
+Their battle burned across a thousand years in a single moment.
+Pyrrion unleashed his Solar Nova Breath, a torrent of white-hot energy that reignited the dead suns. Nhyrax countered with the Abyssal Maw, a sphere of annihilation that consumed everything in its path.
+At last, Pyrrion struck his foe with the Heartfire, the purest essence of the First Flame. Nhyrax screamed as his body fractured into a storm of black fragments that scattered into the void. The suns reignited, brighter than ever — but the victory came at a cost.
+Pyrrion’s wings were torn and charred. His body dimmed, his flames weakening as the centuries passed. Yet he would not rest — for wherever light flickered, he would soar again.
+
+The Path of the Star Guardian
+Over eons, Pyrrion became more than a protector. He became a pilgrim of flame, traveling through the galaxies to rekindle dying stars.
+He absorbed solar plasma into his heart, carrying the energy between systems like a living conduit of fusion. His scales reflected the galaxies he passed — nebulas danced upon his hide, comets traced his wake, and planets whispered prayers as he flew by.
+Ancient civilizations worshiped him under many names:
+Suryagon, the Flame Above Worlds
+Ignis Rex, the King of Light
+The Phoenix Wyrm, who dies and is reborn with every dawn
+In temples carved into moons, priests chanted to him as the “Balancer of Cosmic Breath,” believing that each sunrise was the beat of his heart across the void.
+And yet, Pyrrion was not divine in arrogance — he was divine in duty. He never demanded worship. He only sought to preserve the fire that sustained all creation.
+
+The Shadow Reborn
+But light cannot exist without shadow. Millennia after Nhyrax’s defeat, the Umbrith found a way to return. They corrupted stars from within, poisoning their cores with dark matter until their flames inverted — turning into Black Suns that consumed neighboring systems.
+Pyrrion sensed the corruption spreading across the Orion Arm. His flames grew fierce, his heart burning with sorrow and fury. To cleanse the infection, he dove into the largest Black Sun, knowing the act could destroy him.
+Inside, the pressure was immense, time itself folding and twisting. The Umbrith whispered through the dark:
+“You are flame, but flame always dies.”
+Pyrrion roared back:
+“Then I shall burn forever!”
+He unleashed his full might — the Eternal Ignition, a self-consuming blast of divine fusion that annihilated the Black Sun and every shadow within its reach.
+The explosion lit the entire galaxy. For centuries afterward, every night sky across a thousand worlds shone brighter, as if the universe itself remembered his sacrifice.
+
+The Rebirth of the Flame
+The light did not fade.
+At the center of the explosion, something remained — a new star, pulsing with golden and crimson light. Within it coiled the spectral form of Pyrrion, no longer flesh and flame, but pure energy — a living constellation that moved through the cosmos like a fiery phantom.
+He could no longer be seen in form, but when stars flare suddenly or auroras shimmer without cause, the wise say Pyrrion passes by, checking the suns he once vowed to protect.
+The cosmic scholars of the Fifth Era claim his consciousness now binds the Solar Weave — a network of stellar energy that keeps galaxies alive. Every sunrise, every heartbeat of light in the void, is said to be Pyrrion’s doing.
+
+Description of Pyrrion
+In ancient records and star-artifacts, Pyrrion is described as a dragon of cosmic scale, his body composed of molten fire and plasma veins that pulse with solar rhythm. His wings stretch like radiant nebulae, each feather a flare of light and radiation.
+His eyes are twin stars — one gold, one white — and when he gazes upon a world, its core warms with renewed life. His breath is pure fusion, his roar the birth of novas.
+He wears a crest of solar flares, and his tail drags trails of golden fire that shape new constellations. When he flies through the void, he leaves rivers of stardust — the veins of creation itself.
+
+Legacy of Pyrrion
+To this day, starfarers whisper prayers to the Solar Warden before launching their ships:
+“Guide our path, Flame of the Heavens. Let not the suns fade.”
+When a star flickers back to life after centuries of dormancy, the elders of distant worlds bow their heads and say,
+“The Dragon has passed. The light endures.”
+For Pyrrion, the eternal guardian, still soars — a dragon made of light and legend, forever burning across the infinite sky.`,
+    powers: ['Solar Nova Breath', 'Heartfire', 'Eternal Ignition', 'Stellar Rekindling'],
+    alliances: ['First Flame', 'Solar Weave Keepers'],
+    rivalries: ['Umbrith', 'Nhyrax, Lord of the Void'],
+    image: '/images/Pyrrion.png',
+    stats: {
+      power: 100,
+      wisdom: 90,
+      cunning: 86,
+      resilience: 99
+    },
+    origin: 'The First Star - Before Galaxies',
+    appearance: 'A cosmic dragon of molten gold and crimson plasma; wings of solar flares stretch for miles; eyes like twin novas. Trails stardust and rekindles suns with fusion breath.'
   }
+  
 ];
 
 export const getCharacterById = (id: string): Character | undefined => {
